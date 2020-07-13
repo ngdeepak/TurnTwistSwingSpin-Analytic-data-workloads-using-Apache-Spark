@@ -1,8 +1,8 @@
 # Creating a Data Frame
 
-## What is a Spark Data frame?
+## What is a Spark DataFrame?
 
-**Data Frame** is a distributed collection of data organized into named columns. **Data Frames** can be constructed from a wide array of sources such as: structured data files, tables in Hive, external databases, or existing RDD, Lists, Pandas data frame.
+**DataFrame** is a distributed collection of data organized into named columns. **DataFrames** can be constructed from a wide array of sources such as: structured data files, tables in Hive, external databases, or existing RDD, Lists, Pandas data frame.
 
 Below is an example of how data is stored in distributed across 3 nodes. In this example, table consisting of 2 columns\(Name & Age\) and 3 rows are stored across worker nodes \(Assumption with replication factor of 1\). 
 

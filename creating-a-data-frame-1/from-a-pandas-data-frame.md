@@ -1,6 +1,6 @@
 # From a Pandas data frame
 
-## 1. Creating  Pandas data frame
+## 1. Creating  a Pandas data frame
 
 ```python
 import pandas as pd
