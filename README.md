@@ -14,8 +14,6 @@ description: 3.0.0
 
 ## About the Author:
 
-{% page-ref page="./" %}
-
 [https://www.linkedin.com/in/ndeepak72/](https://www.linkedin.com/in/ndeepak72/)
 
 
