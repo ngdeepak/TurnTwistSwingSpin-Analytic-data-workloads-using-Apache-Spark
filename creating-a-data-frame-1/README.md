@@ -10,6 +10,8 @@ In spark, data operations are mostly carried out directly on a node where data r
 
 ![](../.gitbook/assets/sparktable%20%282%29.png)
 
+## Overview of how data is stored on a spark cluster
+
 ![Spark Cluster containing 3 worker nodes and a master node. Each node stores one record in this example. ](../.gitbook/assets/sparkdataframe.png)
 
 
