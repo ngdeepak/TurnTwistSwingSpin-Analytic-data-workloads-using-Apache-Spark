@@ -14,7 +14,7 @@ Recommend to install and run spark on Linux OS. If you have Windows, install WSL
 !pip install pyspark
 ```
 
-### How to create Spark session?
+### How to create a Spark session?
 
 ```python
 import pyspark

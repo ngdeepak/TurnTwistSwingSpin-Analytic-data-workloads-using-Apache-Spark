@@ -8,5 +8,5 @@
 | Tony | 30 |
 | Mike | 40 |
 
-2. Code1234
+{% file src="../.gitbook/assets/simplecsv.csv" caption="Sample CSV file" %}
 
