@@ -2,7 +2,7 @@
 description: 3.0.0
 ---
 
-# Turn, Twist, Swing & Spin Analytic data workloads using Apache Spark
+# Twist, Turn, Swing & Spin Analytic data workloads using Apache Spark
 
 
 
