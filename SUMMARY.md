@@ -15,7 +15,7 @@
 * [Row Transformation](row-transformation/README.md)
   * [Count the no of rows](row-transformation/count-the-no-of-rows.md)
   * [Filtering rows](row-transformation/untitled.md)
-* [Column Transformation](column-transformation/README.md)
+* [Column Operations](column-transformation/README.md)
   * [Untitled](column-transformation/untitled.md)
   * [Co-variance between 2 columns](column-transformation/co-variance-between-2-columns.md)
   * [Correlation between 2 columns](column-transformation/correlation-between-2-columns.md)
