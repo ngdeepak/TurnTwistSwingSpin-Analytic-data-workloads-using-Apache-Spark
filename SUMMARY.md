@@ -16,6 +16,7 @@
   * [Count the no of rows](row-transformation/count-the-no-of-rows.md)
   * [Filtering rows](row-transformation/untitled.md)
 * [Column Operations](column-transformation/README.md)
+  * [Dealing wit column containing NULL](column-transformation/dealing-wit-column-containing-null.md)
   * [Comparing Columns](column-transformation/comparing-columns.md)
   * [Column aggregates](column-transformation/column-aggregates.md)
   * [Dealing with column containing JSON](column-transformation/dealing-with-column-containing-json.md)
