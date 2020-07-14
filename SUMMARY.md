@@ -16,6 +16,7 @@
   * [Count the no of rows](row-transformation/count-the-no-of-rows.md)
   * [Filtering rows](row-transformation/untitled.md)
 * [Column Operations](column-transformation/README.md)
+  * [Dealing with Column containing date/timestamps](column-transformation/dealing-with-column-containing-date-timestamps.md)
   * [Dealing with column containing map](column-transformation/dealing-with-column-containing-map.md)
   * [Dealing with columns containing arrays](column-transformation/dealing-with-columns-containing-arrays.md)
   * [Untitled](column-transformation/untitled.md)
