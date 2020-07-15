@@ -17,29 +17,43 @@ df.show()
 ```
 
 {% hint style="info" %}
-In the above data frame, first record is an array having 3 elements, second row is an empty array and third row is a null array.                                                                                                              Empty array is an array of length 0 . It has no elements.                                                                  Null Array consists of null elements\(None\)
+t
 {% endhint %}
 
 ## 2.  Code 
 
 ```python
-from pyspark.sql.functions import array_contains
-df.select(array_contains(df.data, 1)).show()
+from pyspark.sql.functions import array_join
+df.select(array_join(df.A,',').alias("array_join")).show()
+```
+
+```python
+df.select(array_join(df.A,',', null_replacement="NA").alias("array_join")).show()
 ```
 
 {% hint style="info" %}
-**Syntax:   array\_contains\(column,  value\)**                                                                                                        returns null if the array is null,                                                                                                                true if the array contains the given value,                                                                                            false otherwise                                                                                                                                
+**Syntax:**   `array_join`\(_col_, _delimiter_, _null\_replacement=None_\)                                                                                                      Concatenates the elements of column using the delimiter. Null values are replaced with null\_replacement if set, otherwise they are ignored.                                                                                                 
 {% endhint %}
 
 ## 3. Output
 
 ```python
-+-----------------------+
-|array_contains(data, 1)|
-+-----------------------+
-|                   true|
-|                  false|
-|                   null|
-+-----------------------+
+df.select(array_join(df.A,',').alias("array_join")).show()
++----------+
+|array_join|
++----------+
+| 1,2,3,4,5|
+|   4,5,4,6|
++----------+
+```
+
+```python
+df.select(array_join(df.A,',', null_replacement="NA").alias("array_join")).show()
++----------+
+|array_join|
++----------+
+| 1,2,3,4,5|
+|4,5,NA,4,6|
++----------+
 ```
 

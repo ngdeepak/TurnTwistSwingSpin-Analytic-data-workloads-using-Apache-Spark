@@ -1,8 +1,8 @@
-# Untitled
+# How to find the list of elements that occurs in both  column A & column B without duplicates?
 
 
 
-## .  Input:  Spark data frame consisting of a column having an array
+## .  Input:  Spark data frame consisting of a columns having an array
 
 ```python
 df = spark.createDataFrame([([1, 2, 3, 4, 5],[6, 7, 5, 9, 10]), ([4, 5, 5, 4, 6],[6, 2, 3, 2, 4])], ['A', 'B'])

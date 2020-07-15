@@ -25,7 +25,7 @@
   * [Dealing with column containing map](column-transformation/dealing-with-column-containing-map.md)
   * [Dealing with column containing arrays](column-transformation/dealing-with-columns-containing-arrays/README.md)
     * [How to create a new array column?](column-transformation/dealing-with-columns-containing-arrays/how-to-create-a-new-array-column.md)
-    * [Untitled](column-transformation/dealing-with-columns-containing-arrays/untitled-7.md)
+    * [How to find the list of elements that occurs in both  column A & column B without duplicates?](column-transformation/dealing-with-columns-containing-arrays/untitled-7.md)
     * [Untitled](column-transformation/dealing-with-columns-containing-arrays/untitled-6.md)
     * [Untitled](column-transformation/dealing-with-columns-containing-arrays/untitled-5.md)
     * [Untitled](column-transformation/dealing-with-columns-containing-arrays/untitled-4.md)
