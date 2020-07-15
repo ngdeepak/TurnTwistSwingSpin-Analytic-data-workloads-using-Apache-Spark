@@ -1,7 +1,5 @@
 # How to combine the array elements from column A and column B, without duplicates?
 
-
-
 ## 1.  Input:  Spark data frame having columns of arrays
 
 ```python

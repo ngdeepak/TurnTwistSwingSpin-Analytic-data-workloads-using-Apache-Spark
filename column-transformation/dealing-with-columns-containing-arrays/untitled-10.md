@@ -2,46 +2,40 @@
 
 
 
-## 1.  Input:  Spark data frame having columns
+## 1.  Input:  Spark data frame having columns of arrays
 
 ```python
-df = spark.createDataFrame([('John', 'Seattle', 60, True, 1.7, '1960-01-01'), 
-('Tony', 'Cupertino', 30, False, 1.8, '1990-01-01'), 
-('Mike', 'New York', 40, True, 1.65, '1980-01-01')],['name', 'city', 'age', 'smoker','height', 'birthdate'])
+df = spark.createDataFrame([([1, 2, 3, 4, 5],[6, 7, 8, 9, 10]), ([4, 5, 5, 4, 6],[6, 2, 3, 2, 4])], ['A', 'B'])
 df.show()
-+----+---------+---+------+------+----------+
-|name|     city|age|smoker|height| birthdate|
-+----+---------+---+------+------+----------+
-|John|  Seattle| 60|  true|   1.7|1960-01-01|
-|Tony|Cupertino| 30| false|   1.8|1990-01-01|
-|Mike| New York| 40|  true|  1.65|1980-01-01|
-+----+---------+---+------+------+----------+
++---------------+----------------+
+|              A|               B|
++---------------+----------------+
+|[1, 2, 3, 4, 5]|[6, 7, 8, 9, 10]|
+|[4, 5, 5, 4, 6]| [6, 2, 3, 2, 4]|
++---------------+----------------+
 ```
 
 {% hint style="info" %}
 to be filled
 {% endhint %}
 
-## 2.  Code 
+## 2. Output
 
 ```python
-from pyspark.sql.functions import array
-df.select(array(df.age,df.height,df.city).alias("array_age_height")).show()
+from pyspark.sql.functions import array_union
+df.select(array_union(df.A, df.B).alias('sort')).show(truncate=False)
++-------------------------------+
+|sort                           |
++-------------------------------+
+|[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]|
+|[4, 5, 6, 2, 3]                |
++-------------------------------+
 ```
 
 {% hint style="info" %}
-**Syntax:   array\(\*columns\)**                                                                                                                      Creates a new array column                                                                                                                     
+**Syntax:**   `array_union`\(_col1_, _col2_\)                ****                                                                                                      returns an array of the elements in the union of col1 and col2, without duplicates.
+
+* **col1** – name of column containing array
+* **col2** – name of column containing array                  
 {% endhint %}
-
-## 3. Output
-
-```python
-+--------------------+
-|    array_age_height|
-+--------------------+
-|  [60, 1.7, Seattle]|
-|[30, 1.8, Cupertino]|
-|[40, 1.65, New York]|
-+--------------------+
-```
 
