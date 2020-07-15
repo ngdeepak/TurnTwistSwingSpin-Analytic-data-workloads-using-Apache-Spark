@@ -1,6 +1,6 @@
 # How to convert a timestamp to unix timestamp?
 
-## .  Input:  Spark data frame consisting of a timestamp column in UTC 
+## 1.  Input:  Spark data frame consisting of a timestamp column in UTC 
 
 ```python
 #timezone 'EST'

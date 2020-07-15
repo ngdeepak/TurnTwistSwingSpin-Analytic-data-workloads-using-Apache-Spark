@@ -18,6 +18,7 @@
   * [Creating a column with date or timestamp](dealing-with-column-containing-date-timestamps/creating-a-column-with-date-or-timestamp.md)
   * [How to extract year, month, date, hour, minute, second, day, weekday, week/quarter of year?](dealing-with-column-containing-date-timestamps/untitled-3.md)
   * [How to deal with timezone convrsions?](dealing-with-column-containing-date-timestamps/untitled-2/README.md)
+    * [How to convert unix timestamp to a timestamp string ?](dealing-with-column-containing-date-timestamps/untitled-2/how-to-convert-unix-timestamp-to-a-timestamp-string.md)
     * [How to convert a timestamp to unix timestamp?](dealing-with-column-containing-date-timestamps/untitled-2/how-to-convert-a-timestamp-to-unix-timestamp.md)
     * [How to convert from UTC timestamps to a given  time zone?](dealing-with-column-containing-date-timestamps/untitled-2/how-to-convert-from-utc-timestamps-to-a-different-time-zone.md)
     * [How to convert from a given time zone to UTC timestamps?](dealing-with-column-containing-date-timestamps/untitled-2/how-to-convert-to-utc-timestamps.md)
