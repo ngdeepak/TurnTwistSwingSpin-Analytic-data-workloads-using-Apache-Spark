@@ -19,20 +19,11 @@ df.show()
 In 
 {% endhint %}
 
-## 2.  Code 
+## 2.  Output
 
 ```python
 from pyspark.sql.functions import array_position
 df.select(array_position(df.data, 4).alias("array_poition")).show()
-```
-
-{% hint style="info" %}
-**Syntax:**   `array_position`\(_col_, _value_\)  ****                                                                                                      Locates the position of the first occurrence of the given value in the given array                                                                              Note: The position is not zero based, but 1 based index. Returns 0 if the given value could not be found in the array.                                                                                                                       
-{% endhint %}
-
-## 3. Output
-
-```python
 +-------------+
 |array_poition|
 +-------------+
@@ -40,4 +31,8 @@ df.select(array_position(df.data, 4).alias("array_poition")).show()
 |            1|
 +-------------+
 ```
+
+{% hint style="info" %}
+**Syntax:**   `array_position`\(_col_, _value_\)  ****                                                                                                      Locates the position of the first occurrence of the given value in the given array                                                                              Note: The position is not zero based, but 1 based index. Returns 0 if the given value could not be found in the array.                                                                                                                       
+{% endhint %}
 

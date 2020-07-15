@@ -20,20 +20,11 @@ df.show()
 In 
 {% endhint %}
 
-## 2.  Code 
+## 2.  Output
 
 ```python
 from pyspark.sql.functions import array_sort
 df.select(array_sort(df.data).alias('sort')).show()
-```
-
-{% hint style="info" %}
-**Syntax:**   `array_sort`\(_col_\)                                                                                                                  sorts the input array in ascending order                                                                                                
-{% endhint %}
-
-## 3. Output
-
-```python
 +-------------------+
 |               sort|
 +-------------------+
@@ -42,4 +33,8 @@ df.select(array_sort(df.data).alias('sort')).show()
 |                 []|
 +-------------------+
 ```
+
+{% hint style="info" %}
+**Syntax:**   `array_sort`\(_col_\)                                                                                                                  sorts the input array in ascending order                                                                                                
+{% endhint %}
 

@@ -19,11 +19,17 @@ df.show()
 In
 {% endhint %}
 
-## 2.  Code 
+## 2.  Output
 
 ```python
 from pyspark.sql.functions import array_remove
 df.select(array_remove(df.data, 4).alias("array_remove")).show()
++--------------+
+|  array_remove|
++--------------+
+|  [1, 2, 3, 8]|
+|[5, 32, 32, 6]|
++--------------+
 ```
 
 {% hint style="info" %}
@@ -32,15 +38,4 @@ df.select(array_remove(df.data, 4).alias("array_remove")).show()
 * **col** – name of column containing array
 * **element** – element to be removed from the array                                                                                                                           
 {% endhint %}
-
-## 3. Output
-
-```python
-+--------------+
-|  array_remove|
-+--------------+
-|  [1, 2, 3, 8]|
-|[5, 32, 32, 6]|
-+--------------+
-```
 

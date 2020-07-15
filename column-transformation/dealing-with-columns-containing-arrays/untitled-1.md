@@ -18,25 +18,20 @@ df.show()
 In 
 {% endhint %}
 
-## 2.  Code 
+## 2.  Output
 
 ```python
 from pyspark.sql.functions import array_repeat
 df.select(array_repeat(df.data, 3).alias('repeat')).show()
-```
-
-{% hint style="info" %}
-**Syntax:**  `array_repeat`\(_col_, _count_\)[\[source\]](http://spark.apache.org/docs/latest/api/python/_modules/pyspark/sql/functions.html#array_repeat)[  
-](http://spark.apache.org/docs/latest/api/python/pyspark.sql.html?highlight=array#pyspark.sql.functions.array_repeat)creates an array containing a column repeated count times  ****                                                                                                                                                                                                                                      
-{% endhint %}
-
-## 3. Output
-
-```python
 +---------+
 |   repeat|
 +---------+
 |[5, 5, 5]|
 +---------+
 ```
+
+{% hint style="info" %}
+**Syntax:**  `array_repeat`\(_col_, _count_\)[\[source\]](http://spark.apache.org/docs/latest/api/python/_modules/pyspark/sql/functions.html#array_repeat)[  
+](http://spark.apache.org/docs/latest/api/python/pyspark.sql.html?highlight=array#pyspark.sql.functions.array_repeat)creates an array containing a column repeated count times  ****                                                                                                                                                                                                                                      
+{% endhint %}
 

@@ -1,7 +1,5 @@
 # How to find the list of elements in column A, but not in column B without duplicates?
 
-
-
 ## 1.  Input:  Spark data frame consisting of a columns  having an array 
 
 ```python
@@ -19,20 +17,11 @@ df.show()
 In the above data frame, there are 2 columns having an array.                                
 {% endhint %}
 
-## 2.  Code 
+## 2.  Output
 
 ```python
 from pyspark.sql.functions import array_except
 df.select(array_except(df.A, df.B)).show()
-```
-
-{% hint style="info" %}
-**Syntax:**   `array_except`\(_col1_, _col2_\)                                                                                                  ****  returns an array of the elements in col1 but not in col2, without duplicates                                                                                                                                                                                                                                
-{% endhint %}
-
-## 3. Output
-
-```python
 +------------------+
 |array_except(A, B)|
 +------------------+
@@ -40,4 +29,8 @@ df.select(array_except(df.A, df.B)).show()
 |               [5]|
 +------------------+
 ```
+
+{% hint style="info" %}
+**Syntax:**   `array_except`\(_col1_, _col2_\)                                                                                                  ****  returns an array of the elements in col1 but not in col2, without duplicates                                                                                                                                                                                                                                
+{% endhint %}
 
