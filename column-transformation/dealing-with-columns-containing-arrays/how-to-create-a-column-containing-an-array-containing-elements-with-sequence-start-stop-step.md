@@ -1,7 +1,5 @@
 # How to create a  column containing an array containing elements with sequence\(start,stop,step\)?
 
-
-
 ## 1.  Input:  Spark data frame consisting of a column having an array
 
 ```python
