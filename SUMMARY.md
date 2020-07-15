@@ -24,6 +24,7 @@
   * [Dealing with Column containing date/timestamps](column-transformation/dealing-with-column-containing-date-timestamps.md)
   * [Dealing with column containing map](column-transformation/dealing-with-column-containing-map.md)
   * [Dealing with column containing arrays](column-transformation/dealing-with-columns-containing-arrays/README.md)
+    * [How to reverse order\(not reverse sort\) a column of array ?](column-transformation/dealing-with-columns-containing-arrays/how-to-reverse-order-not-reverse-sort-a-column-of-array.md)
     * [How to combine the array elements from column A and column B, without duplicates?](column-transformation/dealing-with-columns-containing-arrays/how-to-combine-the-array-elements-from-column-a-and-column-b-without-duplicates.md)
     * [How to return an array of the elements in the union of column A and column B, without duplicates?](column-transformation/dealing-with-columns-containing-arrays/untitled-10.md)
     * [How to zip 2 array columns ?](column-transformation/dealing-with-columns-containing-arrays/untitled-9.md)
