@@ -1,7 +1,5 @@
 # How to reverse order\(not reverse sort\) a column of array ?
 
-
-
 ## 1.  Input:  Spark data frame consisting of a column having an array
 
 ```python
