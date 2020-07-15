@@ -1,4 +1,4 @@
-# How to remove duplicate values from an array column?
+# How to remove duplicate values from an array?
 
 
 

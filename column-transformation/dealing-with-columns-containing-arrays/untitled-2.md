@@ -1,4 +1,4 @@
-# How to remove all elements that equal to element from the given array in a column?
+# How to remove all elements equal to element from the given array in a column?
 
 
 

@@ -19,7 +19,18 @@ df.show()
 to be filled
 {% endhint %}
 
-## 2.  Code 
+## 2. Output
+
+```python
++-------------------------------+
+|sort                           |
++-------------------------------+
+|[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]|
+|[4, 5, 6, 2, 3]                |
++-------------------------------+
+```
+
+## 3. Code 
 
 ```python
 from pyspark.sql.functions import array_union
@@ -33,14 +44,5 @@ df.select(array_union(df.A, df.B).alias('sort')).show(truncate=False)
 * **col2** – name of column containing array                                                                                          
 {% endhint %}
 
-## 3. Output
-
-```python
-+-------------------------------+
-|sort                           |
-+-------------------------------+
-|[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]|
-|[4, 5, 6, 2, 3]                |
-+-------------------------------+
-```
+## 
 
