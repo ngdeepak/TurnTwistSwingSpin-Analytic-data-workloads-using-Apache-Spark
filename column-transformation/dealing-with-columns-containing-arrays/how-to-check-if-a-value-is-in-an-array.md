@@ -21,6 +21,7 @@ In the above data frame, first record is an array having 3 elements, second row 
 ## 2.  Code 
 
 ```python
+from pyspark.sql.functions import array_contains
 df.select(array_contains(df.data, 1)).show()
 ```
 
