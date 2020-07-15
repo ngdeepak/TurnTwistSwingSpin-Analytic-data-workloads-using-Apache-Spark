@@ -1,4 +1,4 @@
-# How to check if a value is in an array?
+# How to check if a value is in an array column?
 
 ## 1.  Input:  Spark data frame consisting of a column having an array
 
