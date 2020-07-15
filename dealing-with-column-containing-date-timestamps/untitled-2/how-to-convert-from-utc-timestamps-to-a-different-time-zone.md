@@ -1,6 +1,6 @@
 # How to convert from UTC timestamps to a different time zone?
 
-## 1.  Input:  Spark data frame consisting of a timestamp column 
+## 1.  Input:  Spark data frame consisting of a timestamp column in UTC 
 
 ```python
 # Please note that below timestamp is i UTC.
@@ -18,7 +18,7 @@ df.show(truncate=False)
 Given a timestamp like '2017-07-14 02:40:00.0', interprets it as a time in the given\(local\) time zone
 {% endhint %}
 
-## 2.  Output
+## 2.  Output Spark data frame consisting of a timestamp column in diff timezone
 
 ```python
 from pyspark.sql.functions import from_utc_timestamp
