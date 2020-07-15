@@ -1,45 +1,42 @@
-# Untitled
+# How to create an array from a  column value  repeated  many times times?
 
 
 
-## .  Input:  Spark data frame consisting of a column having an array
+## 1.  Input:  Spark data frame consisting of a column having a value
 
 ```python
-df = spark.createDataFrame([([1, 2, 3],), ([],),([None, None],)], ['data'])
+df = spark.createDataFrame([(5,)], ['data'])
 df.show()
-+---------+
-|     data|
-+---------+
-|[1, 2, 3]|
-|       []|
-|      [,]|
-+---------+
++----+
+|data|
++----+
+|   5|
++----+
 ```
 
 {% hint style="info" %}
-In the above data frame, first record is an array having 3 elements, second row is an empty array and third row is a null array.                                                                                                              Empty array is an array of length 0 . It has no elements.                                                                  Null Array consists of null elements\(None\)
+In 
 {% endhint %}
 
 ## 2.  Code 
 
 ```python
-from pyspark.sql.functions import array_contains
-df.select(array_contains(df.data, 1)).show()
+from pyspark.sql.functions import array_repeat
+df.select(array_repeat(df.data, 3).alias('repeat')).show()
 ```
 
 {% hint style="info" %}
-**Syntax:   array\_contains\(column,  value\)**                                                                                                        returns null if the array is null,                                                                                                                true if the array contains the given value,                                                                                            false otherwise                                                                                                                                
+**Syntax:**  `array_repeat`\(_col_, _count_\)[\[source\]](http://spark.apache.org/docs/latest/api/python/_modules/pyspark/sql/functions.html#array_repeat)[  
+](http://spark.apache.org/docs/latest/api/python/pyspark.sql.html?highlight=array#pyspark.sql.functions.array_repeat)creates an array containing a column repeated count times  ****                                                                                                                                                                                                                                      
 {% endhint %}
 
 ## 3. Output
 
 ```python
-+-----------------------+
-|array_contains(data, 1)|
-+-----------------------+
-|                   true|
-|                  false|
-|                   null|
-+-----------------------+
++---------+
+|   repeat|
++---------+
+|[5, 5, 5]|
++---------+
 ```
 

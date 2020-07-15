@@ -31,7 +31,7 @@
     * [How to find the minimum value of an array in a column?](column-transformation/dealing-with-columns-containing-arrays/untitled-4.md)
     * [How to locate the position of first occurrence of the given value in the given array in a column?](column-transformation/dealing-with-columns-containing-arrays/untitled-3.md)
     * [How to remove all elements that equal to element from the given array in a column?](column-transformation/dealing-with-columns-containing-arrays/untitled-2.md)
-    * [Untitled](column-transformation/dealing-with-columns-containing-arrays/untitled-1.md)
+    * [How to create an array from a  column value  repeated  many times times?](column-transformation/dealing-with-columns-containing-arrays/untitled-1.md)
     * [Untitled](column-transformation/dealing-with-columns-containing-arrays/untitled.md)
     * [How to find the list of elements in column A, but not in column B without duplicates?](column-transformation/dealing-with-columns-containing-arrays/how-to-find-the-list-of-elements-in-column-a-but-not-in-column-b-without-duplicates.md)
     * [How to check if a value is in an array column?](column-transformation/dealing-with-columns-containing-arrays/how-to-check-if-a-value-is-in-an-array.md)
