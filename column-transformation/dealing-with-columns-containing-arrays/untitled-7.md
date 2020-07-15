@@ -5,41 +5,39 @@
 ## .  Input:  Spark data frame consisting of a column having an array
 
 ```python
-df = spark.createDataFrame([([1, 2, 3],), ([],),([None, None],)], ['data'])
+df = spark.createDataFrame([([1, 2, 3, 4, 5],[6, 7, 5, 9, 10]), ([4, 5, 5, 4, 6],[6, 2, 3, 2, 4])], ['A', 'B'])
 df.show()
-+---------+
-|     data|
-+---------+
-|[1, 2, 3]|
-|       []|
-|      [,]|
-+---------+
++---------------+----------------+
+|              A|               B|
++---------------+----------------+
+|[1, 2, 3, 4, 5]|[6, 7, 5, 9, 10]|
+|[4, 5, 5, 4, 6]| [6, 2, 3, 2, 4]|
++---------------+----------------+
 ```
 
 {% hint style="info" %}
-In the above data frame, first record is an array having 3 elements, second row is an empty array and third row is a null array.                                                                                                              Empty array is an array of length 0 . It has no elements.                                                                  Null Array consists of null elements\(None\)
+t
 {% endhint %}
 
 ## 2.  Code 
 
 ```python
-from pyspark.sql.functions import array_contains
-df.select(array_contains(df.data, 1)).show()
+from pyspark.sql.functions import array_intersect
+df.select(array_intersect(df.A,df.B).alias("array_intersect")).show()
 ```
 
 {% hint style="info" %}
-**Syntax:   array\_contains\(column,  value\)**                                                                                                        returns null if the array is null,                                                                                                                true if the array contains the given value,                                                                                            false otherwise                                                                                                                                
+**Syntax:**   `array_intersect`\(_col1_, _col2_\) ****                                                                                                      returns an array of the elements in the intersection of col1 and col2, without duplicates                                                                                         
 {% endhint %}
 
 ## 3. Output
 
 ```python
-+-----------------------+
-|array_contains(data, 1)|
-+-----------------------+
-|                   true|
-|                  false|
-|                   null|
-+-----------------------+
++---------------+
+|array_intersect|
++---------------+
+|            [5]|
+|         [4, 6]|
++---------------+
 ```
 
