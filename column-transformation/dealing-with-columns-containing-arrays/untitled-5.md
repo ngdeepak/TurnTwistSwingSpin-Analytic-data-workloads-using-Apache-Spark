@@ -1,4 +1,4 @@
-# How to find the maximum of an array in a column?
+# How to find the maximum value of an array in a column?
 
 
 
