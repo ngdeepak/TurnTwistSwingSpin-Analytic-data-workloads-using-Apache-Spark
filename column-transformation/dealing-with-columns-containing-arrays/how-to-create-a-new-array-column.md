@@ -1,4 +1,4 @@
-# How to create a new array column?
+# How to create a column containing array?
 
 
 
