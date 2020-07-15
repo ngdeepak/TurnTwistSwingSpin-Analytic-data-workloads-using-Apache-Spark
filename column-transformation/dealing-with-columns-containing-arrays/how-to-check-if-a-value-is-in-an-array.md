@@ -25,7 +25,7 @@ df.select(array_contains(df.data, 1)).show()
 ```
 
 {% hint style="info" %}
-**Syntax:   array\_contains\(column,  value\)**                                                                                                        returns null if the array is null, true if the array contains the given value, and false otherwise                                                                                                                                
+**Syntax:   array\_contains\(column,  value\)**                                                                                                        returns null if the array is null,                                                                                                                true if the array contains the given value,                                                                         and false otherwise                                                                                                                                
 {% endhint %}
 
 ## 3. Output
