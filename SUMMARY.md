@@ -24,6 +24,8 @@
   * [Dealing with Column containing date/timestamps](column-transformation/dealing-with-column-containing-date-timestamps.md)
   * [Dealing with column containing map](column-transformation/dealing-with-column-containing-map.md)
   * [Dealing with column containing arrays](column-transformation/dealing-with-columns-containing-arrays/README.md)
+    * [How to sort an array in a column in ascending or descending order?](column-transformation/dealing-with-columns-containing-arrays/how-to-sort-an-array-in-a-column-in-ascending-or-descending-order.md)
+    * [How to slice an array in a column?](column-transformation/dealing-with-columns-containing-arrays/how-to-slice-an-array-in-a-column.md)
     * [How to shuffle a column containing an array?](column-transformation/dealing-with-columns-containing-arrays/how-to-shuffle-a-column-containing-an-array.md)
     * [How to create a  column containing an array containing elements with sequence\(start,stop,step\)?](column-transformation/dealing-with-columns-containing-arrays/how-to-create-a-column-containing-an-array-containing-elements-with-sequence-start-stop-step.md)
     * [How to reverse order\(not reverse sort\) a column of array ?](column-transformation/dealing-with-columns-containing-arrays/how-to-reverse-order-not-reverse-sort-a-column-of-array.md)
