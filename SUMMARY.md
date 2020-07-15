@@ -30,7 +30,7 @@
     * [How to find the maximum value of an array in a column?](column-transformation/dealing-with-columns-containing-arrays/untitled-5.md)
     * [How to find the minimum value of an array in a column?](column-transformation/dealing-with-columns-containing-arrays/untitled-4.md)
     * [How to locate the position of first occurrence of the given value in the given array in a column?](column-transformation/dealing-with-columns-containing-arrays/untitled-3.md)
-    * [Untitled](column-transformation/dealing-with-columns-containing-arrays/untitled-2.md)
+    * [How to remove all elements that equal to element from the given array in a column?](column-transformation/dealing-with-columns-containing-arrays/untitled-2.md)
     * [Untitled](column-transformation/dealing-with-columns-containing-arrays/untitled-1.md)
     * [Untitled](column-transformation/dealing-with-columns-containing-arrays/untitled.md)
     * [How to find the list of elements in column A, but not in column B without duplicates?](column-transformation/dealing-with-columns-containing-arrays/how-to-find-the-list-of-elements-in-column-a-but-not-in-column-b-without-duplicates.md)

@@ -1,45 +1,46 @@
-# Untitled
+# How to remove all elements that equal to element from the given array in a column?
 
 
 
-## .  Input:  Spark data frame consisting of a column having an array
+## 1.  Input:  Spark data frame consisting of a column having an array
 
 ```python
-df = spark.createDataFrame([([1, 2, 3],), ([],),([None, None],)], ['data'])
+df = spark.createDataFrame([([1, 2, 3, 8, 4],), ([4, 5, 32, 32, 6],)], ['data'])
 df.show()
-+---------+
-|     data|
-+---------+
-|[1, 2, 3]|
-|       []|
-|      [,]|
-+---------+
++-----------------+
+|             data|
++-----------------+
+|  [1, 2, 3, 8, 4]|
+|[4, 5, 32, 32, 6]|
++-----------------+
 ```
 
 {% hint style="info" %}
-In the above data frame, first record is an array having 3 elements, second row is an empty array and third row is a null array.                                                                                                              Empty array is an array of length 0 . It has no elements.                                                                  Null Array consists of null elements\(None\)
+In
 {% endhint %}
 
 ## 2.  Code 
 
 ```python
-from pyspark.sql.functions import array_contains
-df.select(array_contains(df.data, 1)).show()
+from pyspark.sql.functions import array_remove
+df.select(array_remove(df.data, 4).alias("array_remove")).show()
 ```
 
 {% hint style="info" %}
-**Syntax:   array\_contains\(column,  value\)**                                                                                                        returns null if the array is null,                                                                                                                true if the array contains the given value,                                                                                            false otherwise                                                                                                                                
+**Syntax:**   `array_remove`\(_col_, _element_\)  ****                                                                                                      Remove all elements that equal to element from the given array.                                                                                                   
+
+* **col** – name of column containing array
+* **element** – element to be removed from the array                                                                                                                           
 {% endhint %}
 
 ## 3. Output
 
 ```python
-+-----------------------+
-|array_contains(data, 1)|
-+-----------------------+
-|                   true|
-|                  false|
-|                   null|
-+-----------------------+
++--------------+
+|  array_remove|
++--------------+
+|  [1, 2, 3, 8]|
+|[5, 32, 32, 6]|
++--------------+
 ```
 
