@@ -1,4 +1,4 @@
-# How to convert to UTC timestamps?
+# How to convert from a given time zone to UTC timestamps?
 
 ## 1.  Input:  Spark data frame consisting of a timestamp column 
 
