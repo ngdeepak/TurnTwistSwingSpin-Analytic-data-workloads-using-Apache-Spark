@@ -24,6 +24,7 @@
   * [Dealing with Column containing date/timestamps](column-transformation/dealing-with-column-containing-date-timestamps.md)
   * [Dealing with column containing map](column-transformation/dealing-with-column-containing-map.md)
   * [Dealing with column containing arrays](column-transformation/dealing-with-columns-containing-arrays/README.md)
+    * [How to find the list of elements in column A, but not in column B without duplicates?](column-transformation/dealing-with-columns-containing-arrays/how-to-find-the-list-of-elements-in-column-a-but-not-in-column-b-without-duplicates.md)
     * [How to check if a value is in an array?](column-transformation/dealing-with-columns-containing-arrays/how-to-check-if-a-value-is-in-an-array.md)
     * [How to remove duplicate values from an array?](column-transformation/dealing-with-columns-containing-arrays/how-to-remove-duplicate-values-from-an-array.md)
   * [Untitled](column-transformation/untitled.md)
