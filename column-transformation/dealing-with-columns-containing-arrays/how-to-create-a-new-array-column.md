@@ -27,15 +27,6 @@ to be filled
 ```python
 from pyspark.sql.functions import array
 df.select(array(df.age,df.height,df.city).alias("array_age_height")).show()
-```
-
-{% hint style="info" %}
-**Syntax:   array\(\*columns\)**                                                                                                                      Creates a new array column                                                                                                                     
-{% endhint %}
-
-## 3. Output
-
-```python
 +--------------------+
 |    array_age_height|
 +--------------------+
@@ -43,5 +34,13 @@ df.select(array(df.age,df.height,df.city).alias("array_age_height")).show()
 |[30, 1.8, Cupertino]|
 |[40, 1.65, New York]|
 +--------------------+
+```
+
+{% hint style="info" %}
+**Syntax:   array\(\*columns\)**                                                                                                                      Creates a new array column                                                                                                                     
+{% endhint %}
+
+```
+
 ```
 

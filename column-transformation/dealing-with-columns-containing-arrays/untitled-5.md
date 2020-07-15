@@ -19,20 +19,11 @@ df.show()
 I
 {% endhint %}
 
-## 2.  Code 
+## 2.  Output
 
 ```python
 from pyspark.sql.functions import array_max
 df.select(array_max(df.data).alias("array_max")).show()
-```
-
-{% hint style="info" %}
-**Syntax:**  `array_min`\(_col_\)                                                                                                                 returns the minimum value of the array                                                                                                                                                                                                                                                       
-{% endhint %}
-
-## 3. Output
-
-```python
 +---------+
 |array_max|
 +---------+
@@ -40,4 +31,8 @@ df.select(array_max(df.data).alias("array_max")).show()
 |       32|
 +---------+
 ```
+
+{% hint style="info" %}
+**Syntax:**  `array_min`\(_col_\)                                                                                                                 returns the minimum value of the array                                                                                                                                                                                                                                                       
+{% endhint %}
 

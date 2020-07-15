@@ -19,25 +19,24 @@ df.show()
 t
 {% endhint %}
 
-## 2.  Code 
+## 2.  Output 
 
 ```python
 from pyspark.sql.functions import array_intersect
 df.select(array_intersect(df.A,df.B).alias("array_intersect")).show()
-```
-
-{% hint style="info" %}
-**Syntax:**   `array_intersect`\(_col1_, _col2_\) ****                                                                                                      returns an array of the elements in the intersection of col1 and col2, without duplicates                                                                                         
-{% endhint %}
-
-## 3. Output
-
-```python
 +---------------+
 |array_intersect|
 +---------------+
 |            [5]|
 |         [4, 6]|
 +---------------+
+```
+
+{% hint style="info" %}
+**Syntax:**   `array_intersect`\(_col1_, _col2_\) ****                                                                                                      returns an array of the elements in the intersection of col1 and col2, without duplicates                                                                                         
+{% endhint %}
+
+```
+
 ```
 

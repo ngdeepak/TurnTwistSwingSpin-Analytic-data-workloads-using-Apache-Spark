@@ -1,7 +1,5 @@
 # How to find the minimum value of an array in a column?
 
-
-
 ## 1.  Input:  Spark data frame consisting of a column having an array
 
 ```python
@@ -19,20 +17,11 @@ df.show()
 In 
 {% endhint %}
 
-## 2.  Code 
+## 2.  Output 
 
 ```python
 from pyspark.sql.functions import array_min
 df.select(array_min(df.data).alias("array_min")).show()
-```
-
-{% hint style="info" %}
-**Syntax:**   `array_min`\(_col_\)                                                                                                                returns the minimum value of the array.                                                                                                                         
-{% endhint %}
-
-## 3. Output
-
-```python
 +---------+
 |array_min|
 +---------+
@@ -40,4 +29,8 @@ df.select(array_min(df.data).alias("array_min")).show()
 |        4|
 +---------+
 ```
+
+{% hint style="info" %}
+**Syntax:**   `array_min`\(_col_\)                                                                                                                returns the minimum value of the array.                                                                                                                         
+{% endhint %}
 
