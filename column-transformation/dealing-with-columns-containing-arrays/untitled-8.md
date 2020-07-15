@@ -1,7 +1,5 @@
 # How to flatten a column containing nested arrays?
 
-
-
 ## 1.  Input:  Spark data frame having columns of arrays
 
 ```python
