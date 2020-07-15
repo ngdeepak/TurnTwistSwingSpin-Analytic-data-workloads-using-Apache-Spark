@@ -21,8 +21,15 @@ I
 ## 2.  Output
 
 ```python
-from pyspark.sql.functions import year, month, dayofmonth, dayofweek, dayofyear, hour, minute, second, weekofyear, quarter
-df.select(df.timestamp,year(df.timestamp).alias("year"), month(df.timestamp).alias("month"), dayofmonth(df.timestamp).alias("dayofmonth"), dayofweek(df.timestamp).alias("dayofweek"), dayofyear(df.timestamp).alias("dayofyear"),hour(df.timestamp).alias("hour"),minute(df.timestamp).alias("minute"),second(df.timestamp).alias("second"), weekofyear(df.timestamp).alias("weekofyear"), quarter(df.timestamp).alias("quarter")).show(truncate=False)
+from pyspark.sql.functions import year, month, dayofmonth, dayofweek, dayofyear, 
+hour, minute, second, weekofyear, quarter
+df = spark.createDataFrame([(),],)
+df.select(df.timestamp,year(df.timestamp).alias("year"), 
+month(df.timestamp).alias("month"), dayofmonth(df.timestamp).alias("dayofmonth"), 
+dayofweek(df.timestamp).alias("dayofweek"), dayofyear(df.timestamp).alias("dayofyear"), 
+hour(df.timestamp).alias("hour"), minute(df.timestamp).alias("minute"), 
+second(df.timestamp).alias("second"), weekofyear(df.timestamp).alias("weekofyear"), 
+quarter(df.timestamp).alias("quarter")).show(truncate=False)
 +-----------------------+----+-----+----------+---------+---------+----+------+------+----------+-------+
 |timestamp              |year|month|dayofmonth|dayofweek|dayofyear|hour|minute|second|weekofyear|quarter|
 +-----------------------+----+-----+----------+---------+---------+----+------+------+----------+-------+
