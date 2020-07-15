@@ -23,6 +23,7 @@
   * [Dealing with column containing JSON](column-transformation/dealing-with-column-containing-json.md)
   * [Dealing with Column containing date/timestamps](column-transformation/dealing-with-column-containing-date-timestamps.md)
   * [Dealing with column containing map](column-transformation/dealing-with-column-containing-map/README.md)
+    * [How to extract the keys from a map column?](column-transformation/dealing-with-column-containing-map/how-to-extract-the-keys-from-a-map-column.md)
     * [How to convert a map column into an array column?](column-transformation/dealing-with-column-containing-map/how-to-convert-a-map-column-into-an-array-column.md)
     * [How to combine multiple map columns into one?](column-transformation/dealing-with-column-containing-map/how-to-combine-multiple-map-columns-into-one.md)
     * [How to create a column of map type?](column-transformation/dealing-with-column-containing-map/how-to-create-a-column-of-map-type.md)
