@@ -27,6 +27,8 @@
     * [How to combine multiple map columns into one?](column-transformation/dealing-with-column-containing-map/how-to-combine-multiple-map-columns-into-one.md)
     * [How to create a column of map type?](column-transformation/dealing-with-column-containing-map/how-to-create-a-column-of-map-type.md)
   * [Dealing with column containing arrays](column-transformation/dealing-with-columns-containing-arrays/README.md)
+    * [How to convert a column of nested arrays into a map column?](column-transformation/dealing-with-columns-containing-arrays/how-to-convert-a-column-of-nested-arrays-into-a-map-column.md)
+    * [How to convert array columns into a map column?](column-transformation/dealing-with-columns-containing-arrays/how-to-convert-array-columns-into-a-map-column.md)
     * [How to sort an array in a column in ascending or descending order?](column-transformation/dealing-with-columns-containing-arrays/how-to-sort-an-array-in-a-column-in-ascending-or-descending-order.md)
     * [How to slice an array in a column?](column-transformation/dealing-with-columns-containing-arrays/how-to-slice-an-array-in-a-column.md)
     * [How to shuffle a column containing an array?](column-transformation/dealing-with-columns-containing-arrays/how-to-shuffle-a-column-containing-an-array.md)
