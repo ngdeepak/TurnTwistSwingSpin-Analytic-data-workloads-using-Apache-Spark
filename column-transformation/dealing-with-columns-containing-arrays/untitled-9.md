@@ -1,7 +1,5 @@
 # How to zip 2 array columns ?
 
-
-
 ## 1.  Input:  Spark data frame having columns of arrays
 
 ```python

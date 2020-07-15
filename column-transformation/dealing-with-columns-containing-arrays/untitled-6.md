@@ -1,7 +1,5 @@
 # How to concatenate the elements of an array in a column?
 
-
-
 ## 1.  Input:  Spark data frame consisting of a column having an array
 
 ```python

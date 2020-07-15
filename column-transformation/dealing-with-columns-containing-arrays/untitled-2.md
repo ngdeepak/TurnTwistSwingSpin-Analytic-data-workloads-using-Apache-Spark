@@ -1,7 +1,5 @@
 # How to remove all elements equal to element from the given array in a column?
 
-
-
 ## 1.  Input:  Spark data frame consisting of a column having an array
 
 ```python

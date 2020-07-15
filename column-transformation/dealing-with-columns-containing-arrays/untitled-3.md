@@ -1,7 +1,5 @@
 # How to locate the position of first occurrence of the given value in the given array in a column?
 
-
-
 ## 1..  Input:  Spark data frame consisting of a column having an array
 
 ```python

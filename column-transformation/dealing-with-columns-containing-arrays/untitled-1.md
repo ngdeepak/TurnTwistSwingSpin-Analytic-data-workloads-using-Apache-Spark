@@ -1,7 +1,5 @@
 # How to create an array from a  column value  repeated  many times times?
 
-
-
 ## 1.  Input:  Spark data frame consisting of a column having a value
 
 ```python

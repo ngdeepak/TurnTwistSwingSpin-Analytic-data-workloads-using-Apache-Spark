@@ -1,7 +1,5 @@
 # How to sort the column array in ascending order?
 
-
-
 ## 1.  Input:  Spark data frame consisting of a column having an array
 
 ```python

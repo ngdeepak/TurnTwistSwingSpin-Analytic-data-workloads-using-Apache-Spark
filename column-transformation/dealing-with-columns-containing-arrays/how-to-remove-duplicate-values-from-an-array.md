@@ -1,4 +1,6 @@
-# How to remove duplicate values from an array column?
+# How to remove duplicate values from an array?
+
+
 
 ## 1.  Input:  Spark data frame consisting of a column having an array containing duplicate values
 
@@ -17,11 +19,20 @@ df.show()
 In the above data frame, both first & second record contains an array having duplicates.                                
 {% endhint %}
 
-## 2.  Output 
+## 2.  Code 
 
 ```python
 from pyspark.sql.functions import array_distinct
 df.select(array_distinct(df.data)).show()
+```
+
+{% hint style="info" %}
+**Syntax:   array\_distinct\(column\_name\)**     removes duplicates  from the array in the column                                                                                                                                                                                                                                 
+{% endhint %}
+
+## 3. Output
+
+```python
 +--------------------+
 |array_distinct(data)|
 +--------------------+
@@ -29,10 +40,4 @@ df.select(array_distinct(df.data)).show()
 |           [4, 5, 6]|
 +--------------------+
 ```
-
-{% hint style="info" %}
-**Syntax:   array\_distinct\(column\_name\)**     removes duplicates  from the array in the column                                                                                                                                                                                                                                 
-{% endhint %}
-
-
 
