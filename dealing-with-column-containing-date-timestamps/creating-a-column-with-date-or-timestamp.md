@@ -24,7 +24,3 @@ df.select(current_timestamp().alias("curent_day")).show(truncate=False)
 +----------------------+
 ```
 
-{% hint style="info" %}
-Syntax:  `map_values`\(_col_\)                                                                                                                             Returns an unordered array containing the values of the map.
-{% endhint %}
-
