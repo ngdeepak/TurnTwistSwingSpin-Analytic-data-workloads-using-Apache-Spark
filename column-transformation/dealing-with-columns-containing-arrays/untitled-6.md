@@ -1,8 +1,8 @@
-# How to concatenate the elements of column?
+# How to concatenate the elements of an array in a column?
 
 
 
-## .  Input:  Spark data frame consisting of a column having an array
+## 1.  Input:  Spark data frame consisting of a column having an array
 
 ```python
 df = spark.createDataFrame([([1, 2, 3],), ([],),([None, None],)], ['data'])
