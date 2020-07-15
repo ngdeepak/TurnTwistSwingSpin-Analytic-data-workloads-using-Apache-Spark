@@ -22,19 +22,14 @@ to be filled
 ## 2. Output
 
 ```python
+from pyspark.sql.functions import array_union
+df.select(array_union(df.A, df.B).alias('sort')).show(truncate=False)
 +-------------------------------+
 |sort                           |
 +-------------------------------+
 |[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]|
 |[4, 5, 6, 2, 3]                |
 +-------------------------------+
-```
-
-## 3. Code 
-
-```python
-from pyspark.sql.functions import array_union
-df.select(array_union(df.A, df.B).alias('sort')).show(truncate=False)
 ```
 
 {% hint style="info" %}
