@@ -1,6 +1,8 @@
-# How to check if a value is in an array column?
+# Untitled
 
-## 1.  Input:  Spark data frame consisting of a column having an array
+
+
+## .  Input:  Spark data frame consisting of a column having an array
 
 ```python
 df = spark.createDataFrame([([1, 2, 3],), ([],),([None, None],)], ['data'])
