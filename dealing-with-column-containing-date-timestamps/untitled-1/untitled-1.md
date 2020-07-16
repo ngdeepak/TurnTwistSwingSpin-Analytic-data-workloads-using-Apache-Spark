@@ -2,16 +2,16 @@
 
 
 
-## 1.  Input:  Spark data frame consisting of a map column 
+## 1.  Input:  Spark data frame consisting of a date columns 
 
 ```python
-df = spark.createDataFrame([({"a":1,"b":"2","c":3},)],["data"])
-df.show(truncate=False)
-+----------------------+
-|data                  |
-+----------------------+
-|[a -> 1, b ->, c -> 3]|
-+----------------------+
+df = spark.createDataFrame([('2020-07-15','2020-06-10')], ['date11', 'date2'])
+df.show()
++----------+----------+
+|     date1|     date2|
++----------+----------+
+|2020-07-15|2020-06-10|
++----------+----------+
 ```
 
 {% hint style="info" %}
@@ -21,16 +21,16 @@ I
 ## 2.  Output
 
 ```python
-from pyspark.sql.functions import map_values
-df.select(map_values(df.data).alias("values")).show()
-+-------+
-| values|
-+-------+
-|[1,, 3]|
-+-------+
+from pyspark.sql.functions import datediff
+df.select(datediff(df.date1,df.date2).alias('diff')).show()
++----+
+|diff|
++----+
+|  35|
++----+
 ```
 
 {% hint style="info" %}
-Syntax:  `map_values`\(_col_\)                                                                                                                             Returns an unordered array containing the values of the map.
+Syntax:  `datediff`\(_end_, _start_\)                                                                                                                          Returns the number of days from start to end.
 {% endhint %}
 
