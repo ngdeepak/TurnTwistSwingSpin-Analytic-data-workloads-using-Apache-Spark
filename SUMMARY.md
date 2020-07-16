@@ -25,6 +25,8 @@
     * [How to convert from UTC timestamps to a given  time zone?](dealing-with-column-containing-date-timestamps/untitled-2/how-to-convert-from-utc-timestamps-to-a-different-time-zone.md)
     * [How to convert from a given time zone to UTC timestamps?](dealing-with-column-containing-date-timestamps/untitled-2/how-to-convert-to-utc-timestamps.md)
   * [How to apply math operations?](dealing-with-column-containing-date-timestamps/untitled-1/README.md)
+    * [How to add no of months to a date?](dealing-with-column-containing-date-timestamps/untitled-1/how-to-add-no-of-months-to-a-date.md)
+    * [Untitled](dealing-with-column-containing-date-timestamps/untitled-1/untitled-4.md)
     * [How to add no of days?](dealing-with-column-containing-date-timestamps/untitled-1/untitled-3.md)
     * [How to subtract no of days?](dealing-with-column-containing-date-timestamps/untitled-1/untitled-2.md)
     * [How to find no of days between 2 dates?](dealing-with-column-containing-date-timestamps/untitled-1/untitled-1.md)
