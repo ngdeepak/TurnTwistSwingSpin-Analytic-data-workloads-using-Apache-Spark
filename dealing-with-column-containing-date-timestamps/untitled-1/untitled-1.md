@@ -1,4 +1,4 @@
-# Untitled
+# How to find no of days between 2 dates?
 
 
 
@@ -31,6 +31,6 @@ df.select(datediff(df.date1,df.date2).alias('diff')).show()
 ```
 
 {% hint style="info" %}
-Syntax:  `datediff`\(_end_, _start_\)                                                                                                                          Returns the number of days from start to end.
+Syntax:  `datediff`\(_end_, _start_\)                                                                                                                          Returns the number of days between start and  end date.
 {% endhint %}
 

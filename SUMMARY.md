@@ -27,7 +27,7 @@
   * [How to apply math operations?](dealing-with-column-containing-date-timestamps/untitled-1/README.md)
     * [How to add no of days?](dealing-with-column-containing-date-timestamps/untitled-1/untitled-3.md)
     * [How to subtract no of days?](dealing-with-column-containing-date-timestamps/untitled-1/untitled-2.md)
-    * [Untitled](dealing-with-column-containing-date-timestamps/untitled-1/untitled-1.md)
+    * [How to find no of days between 2 dates?](dealing-with-column-containing-date-timestamps/untitled-1/untitled-1.md)
     * [Untitled](dealing-with-column-containing-date-timestamps/untitled-1/untitled.md)
   * [Untitled](dealing-with-column-containing-date-timestamps/untitled.md)
 * [Dealing with column containing map](dealing-with-column-containing-map/README.md)
