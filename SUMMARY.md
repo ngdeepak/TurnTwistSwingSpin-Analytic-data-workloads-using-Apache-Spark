@@ -15,6 +15,7 @@
   * [Parquet](loading-data-from-external-data-sources/parquet.md)
 * [Dealing with Column containing string](dealing-with-column-containing-string.md)
 * [Dealing with Column containing date/timestamps](dealing-with-column-containing-date-timestamps/README.md)
+  * [How to convert from timestamp to datetime format?](dealing-with-column-containing-date-timestamps/how-to-convert-from-timestamp-to-datetime-format.md)
   * [Creating a column with date or timestamp](dealing-with-column-containing-date-timestamps/creating-a-column-with-date-or-timestamp.md)
   * [How to extract year, month, date, hour, minute, second, day, weekday, week/quarter of year?](dealing-with-column-containing-date-timestamps/untitled-3.md)
   * [How to deal with timezone convrsions?](dealing-with-column-containing-date-timestamps/untitled-2/README.md)
