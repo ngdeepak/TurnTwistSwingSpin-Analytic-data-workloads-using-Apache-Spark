@@ -1,7 +1,5 @@
 # How to add no of days?
 
-
-
 ## 1.  Input:  Spark data frame consisting of a date column 
 
 ```python

@@ -1,7 +1,5 @@
 # How to add no of months to a date?
 
-
-
 ## 1.  Input:  Spark data frame consisting of a map column 
 
 ```python
