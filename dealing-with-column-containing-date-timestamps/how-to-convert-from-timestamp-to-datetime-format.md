@@ -29,6 +29,6 @@ df.select(to_timestamp(df.timestamp, 'yyyy-MM-dd HH:mm:ss').alias('dt')).collect
 ```
 
 {% hint style="info" %}
-Syntax:  `from_unixtime`\(_timestamp_, _format='yyyy-MM-dd HH:mm:ss'_\)                             Converts the number of seconds from unix epoch \(1970-01-01 00:00:00 UTC\) to a string representing the timestamp of that moment in the current system time zone in the given 
+Syntax:  `to_timestamp`\(_col_, _format=None_\)                                                                                      Converts a `Column` into [`pyspark.sql.types.TimestampType`](http://spark.apache.org/docs/latest/api/python/pyspark.sql.html?highlight=now#pyspark.sql.types.TimestampType) using the optionally specified format. Specify formats according to [datetime pattern](https://spark.apache.org/docs/latest/sql-ref-datetime-pattern.html).                    
 {% endhint %}
 
