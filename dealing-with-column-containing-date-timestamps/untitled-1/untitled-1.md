@@ -2,7 +2,7 @@
 
 
 
-## 1.  Input:  Spark data frame consisting of a date columns 
+## 1.  Input:  Spark data frame consisting of  date columns 
 
 ```python
 df = spark.createDataFrame([('2020-07-15','2020-06-10')], ['date11', 'date2'])
