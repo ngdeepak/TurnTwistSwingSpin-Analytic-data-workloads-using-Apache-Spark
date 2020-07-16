@@ -1,7 +1,5 @@
 # How to find no of days between 2 dates?
 
-
-
 ## 1.  Input:  Spark data frame consisting of  date columns 
 
 ```python
