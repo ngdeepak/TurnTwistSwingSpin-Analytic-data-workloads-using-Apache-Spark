@@ -29,6 +29,6 @@ df.select(months_between(df.date1, df.date2)).show()
 ```
 
 {% hint style="info" %}
-Syntax:  `months_between`\(_date1_, _date2_, _roundOff=True_\)                                                                                                                             Returns number of months between dates date1 and date2. If date1 is later than date2, then the result is positive. If date1 and date2 are on the same day of month, or both are the last day of month, returns an integer \(time of day will be ignored\). The result is rounded off to 8 digits unless roundOff is set to False.
+Syntax:  `months_between`\(_date1_, _date2_,  _roundOff=True_\)                                                                                                                             Returns number of months between dates date1 and date2. If date1 is later than date2, then the result is positive. If date1 and date2 are on the same day of month, or both are the last day of month, returns an integer \(time of day will be ignored\). The result is rounded off to 8 digits unless roundOff is set to False.
 {% endhint %}
 
