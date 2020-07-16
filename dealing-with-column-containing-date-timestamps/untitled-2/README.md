@@ -1,4 +1,4 @@
-# How to deal with timezone convrsions?
+# How to deal with timezone/format convrsions?
 
 
 
