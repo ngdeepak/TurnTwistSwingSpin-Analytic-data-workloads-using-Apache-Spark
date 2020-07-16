@@ -1,7 +1,5 @@
 # How to find no of months between 2 dates?
 
-
-
 ## 1.  Input:  Spark data frame consisting of a map column 
 
 ```python
