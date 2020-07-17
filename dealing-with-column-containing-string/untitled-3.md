@@ -35,6 +35,18 @@ df.select(substring(df.string,1,4).alias('substring')).show()
 
 
 
+## 1.  Input:  Spark data frame consisting of a column having a string
+
+```python
+df = spark.createDataFrame([('abc__def__ghc',)], ['string',])
+df.show()
++-------------+
+|       string|
++-------------+
+|abc__def__ghc|
++-------------+
+```
+
 ## 2.  Output
 
 ```python
