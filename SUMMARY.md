@@ -16,7 +16,7 @@
 * [Dealing with columns containing numbers](dealing-with-columns-containing-numbers.md)
 * [Dealing with Column containing string](dealing-with-column-containing-string/README.md)
   * [How to split a string?](dealing-with-column-containing-string/how-to-split-a-string.md)
-  * [Untitled](dealing-with-column-containing-string/untitled-5.md)
+  * [How to convert to uppercase?](dealing-with-column-containing-string/untitled-5.md)
   * [Untitled](dealing-with-column-containing-string/untitled-4.md)
   * [Untitled](dealing-with-column-containing-string/untitled-3.md)
   * [Untitled](dealing-with-column-containing-string/untitled-2.md)
