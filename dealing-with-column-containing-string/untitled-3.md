@@ -1,18 +1,15 @@
-# Untitled
+# How to slice  string?
 
-
-
-## 1.  Input:  Spark data frame consisting of a column having an array
+## 1.  Input:  Spark data frame consisting of a column having a string
 
 ```python
-df = spark.createDataFrame([([1, 2, 3, 8, 4],), ([4, 5, 32, 32, 6],)], ['data'])
+df = spark.createDataFrame([('abcdefghi',)], ['string',])
 df.show()
-+-----------------+
-|             data|
-+-----------------+
-|  [1, 2, 3, 8, 4]|
-|[4, 5, 32, 32, 6]|
-+-----------------+
++---------+
+|   string|
++---------+
+|abcdefghi|
++---------+
 ```
 
 {% hint style="info" %}
@@ -22,21 +19,16 @@ I
 ## 2.  Output
 
 ```python
-from pyspark.sql.functions import slice
-df.select(slice(df.data, 2, 3).alias('slice')).show()
-+-----------+
-|      slice|
-+-----------+
-|  [2, 3, 8]|
-|[5, 32, 32]|
-+-----------+
+from pyspark.sql.functions import substring
+df.select(substring(df.string,1,4).alias('substring')).show()
++---------+
+|substring|
++---------+
+|     abcd|
++---------+
 ```
 
 {% hint style="info" %}
-**Syntax:**   `slice`\(_x_, _start_, _length_\)                                                                                                                 returns an array containing all the elements in x from index start \(array indices start at 1, or from the end if start is negative\) with the specified length                                                     
-
-* **x** – the array to be sliced
-* **start** – the starting index
-* **length** – the length of the slice               
+**Syntax:**    `substring`\(_str_, _pos_, _len_\)                                                                                                                 Substring starts at pos and is of length len when str is String type or returns the slice of byte array that starts at pos in byte and is of length len when str is Binary type.             
 {% endhint %}
 
