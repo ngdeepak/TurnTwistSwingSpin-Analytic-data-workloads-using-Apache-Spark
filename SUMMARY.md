@@ -21,7 +21,6 @@
   * [How to slice  string?](dealing-with-column-containing-string/untitled-3.md)
   * [How to extract a specific group matched by a Java regex?](dealing-with-column-containing-string/untitled-2.md)
   * [How to replace a specific group matched by a Java regex?](dealing-with-column-containing-string/untitled-1.md)
-  * [Untitled](dealing-with-column-containing-string/untitled.md)
 * [Dealing with column containing arrays](dealing-with-columns-containing-arrays/README.md)
   * [How to convert a column of nested arrays into a map column?](dealing-with-columns-containing-arrays/how-to-convert-a-column-of-nested-arrays-into-a-map-column.md)
   * [How to convert array columns into a map column?](dealing-with-columns-containing-arrays/how-to-convert-array-columns-into-a-map-column.md)
