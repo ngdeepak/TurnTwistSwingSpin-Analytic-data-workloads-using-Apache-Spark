@@ -1,6 +1,7 @@
 # Table of contents
 
-* [Twist, Turn, Swing & Spin Analytic data workloads using Apache Spark](README.md)
+* [Twist, Turn, Spin & Swing Analytic data workloads using Apache Spark](README.md)
+* [Untitled](untitled.md)
 * [Setup & Installation](setup-and-installation.md)
 * [Creating a Data Frame](creating-a-data-frame-1/README.md)
   * [From a list](creating-a-data-frame-1/from-a-list.md)
