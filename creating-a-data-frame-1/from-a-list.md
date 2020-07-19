@@ -1,5 +1,7 @@
 # From a list
 
+![](../.gitbook/assets/sparkbook-1-.png)
+
 ## 1. Input: List
 
 ```python
