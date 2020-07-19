@@ -1,5 +1,9 @@
 # From a Pandas data frame
 
+## Goal:
+
+![](../.gitbook/assets/sparkbook-5-.png)
+
 ## 1. Creating  a Pandas data frame
 
 ```python

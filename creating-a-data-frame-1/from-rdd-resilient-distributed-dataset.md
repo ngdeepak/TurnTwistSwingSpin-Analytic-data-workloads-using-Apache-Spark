@@ -1,5 +1,9 @@
 # From RDD\(Resilient Distributed Dataset \)
 
+## Goal:
+
+![](../.gitbook/assets/sparkbook-6-.png)
+
 ## Creating a  RDD
 
 ```python

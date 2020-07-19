@@ -1,6 +1,8 @@
 # From a list
 
-![](../.gitbook/assets/sparkbook-3-.png)
+## Goal:
+
+![](../.gitbook/assets/sparkbook-4-.png)
 
 ## 1. Input: List
 
