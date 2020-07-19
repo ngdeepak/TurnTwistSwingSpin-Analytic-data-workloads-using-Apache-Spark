@@ -1,6 +1,6 @@
 # From a list
 
-![](../.gitbook/assets/sparkbook-1-.png)
+![](../.gitbook/assets/sparkbook-3-.png)
 
 ## 1. Input: List
 
@@ -29,4 +29,8 @@ spark.createDataFrame([('John', 'Seattle', 60, True, 1.7, '1960-01-01'),
 |Mike| New York| 40| true|1.65|1980-01-01|
 +----+---------+---+-----+----+----------+
 ```
+
+{% hint style="info" %}
+Syntax: `createDataFrame`\(_data_, _schema=None_, _samplingRatio=None_, _verifySchema=True_\)
+{% endhint %}
 
