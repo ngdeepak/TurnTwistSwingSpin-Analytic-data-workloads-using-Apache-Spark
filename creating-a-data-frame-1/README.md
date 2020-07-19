@@ -6,7 +6,9 @@
 
 Below is an example of how data is distributed across 3 nodes. In this example, table consisting of 2 columns\(Name & Age\) and 3 rows are stored across worker nodes .  Each node stores one record.
 
-In spark, data operations are mostly carried out directly on a node where data resides instead of getting the data from other nodes.  
+In spark, data operations are mostly carried out directly on a node where data resides instead of getting the data from other nodes.        
+
+                                                                                                  
 
 ![](../.gitbook/assets/sparktable%20%282%29.png)
 
