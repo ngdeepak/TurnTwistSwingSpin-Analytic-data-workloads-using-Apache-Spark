@@ -4,7 +4,7 @@ description: 'Objective: To set up Apache Spark for running all the examples'
 
 # Setup & Installation
 
-## How to set up?
+## Goal:  Set up
 
 ![](.gitbook/assets/image%20%284%29.png)
 
