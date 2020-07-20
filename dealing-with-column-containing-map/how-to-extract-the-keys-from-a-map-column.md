@@ -1,5 +1,7 @@
 # How to extract the keys from a map column?
 
+![](../.gitbook/assets/sparkbook-13-.png)
+
 ## 1.  Input:  Spark data frame consisting of a map column 
 
 ```python
@@ -11,10 +13,6 @@ df.show(truncate=False)
 |[a -> 1, b ->, c -> 3]|
 +----------------------+
 ```
-
-{% hint style="info" %}
-I
-{% endhint %}
 
 ## 2.  Output
 
