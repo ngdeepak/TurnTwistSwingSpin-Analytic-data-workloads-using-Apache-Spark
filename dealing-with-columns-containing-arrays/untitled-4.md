@@ -1,6 +1,6 @@
 # How to find the minimum value of an array in a column?
 
-![](../.gitbook/assets/2020_07_20_kleki-12-.png)
+![](../.gitbook/assets/2020_07_20_kleki-13-.png)
 
 ## 1.  Input:  Spark dataframe with a column having an array
 
