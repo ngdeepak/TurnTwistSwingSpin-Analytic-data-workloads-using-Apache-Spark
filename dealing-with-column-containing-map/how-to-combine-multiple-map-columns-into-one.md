@@ -1,6 +1,6 @@
 # How to combine multiple map columns into one?
 
-
+![](../.gitbook/assets/sparkbook-17-.png)
 
 ## 1.  Input:  Spark dataframe containing multiple map columns
 
