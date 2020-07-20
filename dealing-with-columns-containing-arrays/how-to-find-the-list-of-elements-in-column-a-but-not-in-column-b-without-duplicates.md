@@ -1,6 +1,8 @@
 # How to find the list of elements in column A, but not in column B without duplicates?
 
-## 1.  Input:  Spark data frame consisting of a columns  having an array 
+![](../.gitbook/assets/2020_07_20_kleki-7-.png)
+
+## 1.  Input:  Spark dataframe with array columns  
 
 ```python
 df = spark.createDataFrame([([1, 2, 3, 4, 5],[6, 7, 8, 9, 10]), ([4, 5, 5, 4, 6],[6, 2, 3, 2, 4])], ['A', 'B'])
