@@ -1,6 +1,8 @@
-# How to create an array from a  column value  repeated  many times times?
+# How to create an array from a  column value  repeated  many times?
 
-## 1.  Input:  Spark data frame consisting of a column having a value
+![](../.gitbook/assets/2020_07_20_kleki-9-.png)
+
+## 1.  Input:  Spark dataframe with a column having a value
 
 ```python
 df = spark.createDataFrame([(5,)], ['data'])
