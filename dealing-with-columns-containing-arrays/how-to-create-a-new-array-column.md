@@ -1,5 +1,7 @@
 # How to create a column containing array?
 
+![](../.gitbook/assets/2020_07_20_kleki-2-.png)
+
 ## 1.  Input:  Spark data frame having columns
 
 ```python

@@ -1,5 +1,7 @@
 # How to check if a value is in an array column?
 
+![](../.gitbook/assets/2020_07_20_kleki-6-.png)
+
 ## 1.  Input:  Spark data frame consisting of a column having an array
 
 ```python
