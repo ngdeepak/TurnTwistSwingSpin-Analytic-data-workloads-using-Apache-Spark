@@ -1,5 +1,9 @@
 # How to create a column of map type?
 
+## Goal: Create a map column
+
+![](../.gitbook/assets/sparkbook-11-.png)
+
 ## 1.  Input:  List of dictionary 
 
 ```python
