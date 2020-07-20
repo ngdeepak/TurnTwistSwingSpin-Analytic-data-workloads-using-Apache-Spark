@@ -65,6 +65,7 @@
     * [How to find no of months between 2 dates?](dealing-with-column-containing-date-timestamps/untitled-1/untitled.md)
 * [Dealing with column containing map](dealing-with-column-containing-map/README.md)
   * [How to create a column of map type?](dealing-with-column-containing-map/how-to-create-a-column-of-map-type.md)
+  * [How to read individual elements ?](dealing-with-column-containing-map/how-to-read-individual-elements.md)
   * [How to extract the values from a map column?](dealing-with-column-containing-map/how-to-extract-the-values-from-a-map-column.md)
   * [How to extract the keys from a map column?](dealing-with-column-containing-map/how-to-extract-the-keys-from-a-map-column.md)
   * [How to convert a map column into an array column?](dealing-with-column-containing-map/how-to-convert-a-map-column-into-an-array-column.md)
