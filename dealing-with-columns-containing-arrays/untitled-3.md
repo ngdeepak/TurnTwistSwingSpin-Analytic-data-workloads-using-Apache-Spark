@@ -1,6 +1,8 @@
 # How to locate the position of first occurrence of the given value in the given array in a column?
 
-## 1..  Input:  Spark data frame consisting of a column having an array
+![](../.gitbook/assets/2020_07_20_kleki-11-.png)
+
+## 1..  Input:  Spark dataframe with  a column having an array
 
 ```python
 df = spark.createDataFrame([([1, 2, 3, 8, 4],), ([4, 5, 32, 32, 6],)], ['data'])
@@ -21,9 +23,9 @@ In
 
 ```python
 from pyspark.sql.functions import array_position
-df.select(array_position(df.data, 4).alias("array_poition")).show()
+df.select(array_position(df.data, 4).alias("array_position")).show()
 +-------------+
-|array_poition|
+|array_position|
 +-------------+
 |            5|
 |            1|

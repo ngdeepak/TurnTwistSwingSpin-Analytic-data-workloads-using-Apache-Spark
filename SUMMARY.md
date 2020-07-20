@@ -40,7 +40,7 @@
   * [How to find the maximum value of an array in a column?](dealing-with-columns-containing-arrays/untitled-5.md)
   * [How to find the minimum value of an array in a column?](dealing-with-columns-containing-arrays/untitled-4.md)
   * [How to locate the position of first occurrence of the given value in the given array in a column?](dealing-with-columns-containing-arrays/untitled-3.md)
-  * [How to remove all elements equal to element from the given array in a column?](dealing-with-columns-containing-arrays/untitled-2.md)
+  * [How to remove all elements equal to an element from the given array in a column?](dealing-with-columns-containing-arrays/untitled-2.md)
   * [How to create an array from a  column value  repeated  many times?](dealing-with-columns-containing-arrays/untitled-1.md)
   * [How to sort the column array in ascending order?](dealing-with-columns-containing-arrays/untitled.md)
   * [How to find the list of elements in column A, but not in column B without duplicates?](dealing-with-columns-containing-arrays/how-to-find-the-list-of-elements-in-column-a-but-not-in-column-b-without-duplicates.md)
