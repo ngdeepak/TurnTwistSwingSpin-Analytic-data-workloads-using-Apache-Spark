@@ -1,6 +1,6 @@
 # How to extract the values from a map column?
 
-![](../.gitbook/assets/sparkbook-14-.png)
+![](../.gitbook/assets/sparkbook-15-.png)
 
 ## 1.  Input:  Spark data frame consisting of a map column 
 
