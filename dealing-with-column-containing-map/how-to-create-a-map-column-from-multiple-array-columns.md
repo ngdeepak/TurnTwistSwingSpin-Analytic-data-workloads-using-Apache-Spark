@@ -1,6 +1,6 @@
 # How to create a map column from multiple array columns?
 
-
+![](../.gitbook/assets/sparkbook-19-.png)
 
 ## 1.  Input:  Spark dataframe containing map column
 
