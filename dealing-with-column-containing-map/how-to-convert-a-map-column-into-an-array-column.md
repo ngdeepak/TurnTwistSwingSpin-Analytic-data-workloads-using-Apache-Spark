@@ -1,6 +1,6 @@
 # How to convert a map column into an array column?
 
-map\_entries
+![](../.gitbook/assets/sparkbook-16-.png)
 
 
 
@@ -16,14 +16,16 @@ df.show(truncate=False)
 +------------------------+
 ```
 
-## 2.  Output: Spark dataframe containing map column
+## 2.  Output: Spark dataframe containing an array
 
 ```python
-df.select(df.data.a.alias("a"), df.data.b.alias("b"), df.data.c.alias("c") ).show()
-+---+---+---+
-|  a|  b|  c|
-+---+---+---+
-|  1|  2|  3|
+from pyspark.sql.functions import map_entries
+df = df.select(map_entries(df.data).alias("array")).show(truncate=False)
++----------------------+
+|array                 |
++----------------------+
+|[[a, 1], [b,], [c, 3]]|
++----------------------+
 ```
 
 
