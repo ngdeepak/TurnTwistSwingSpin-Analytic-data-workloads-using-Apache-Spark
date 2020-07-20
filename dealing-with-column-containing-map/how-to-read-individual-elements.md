@@ -14,7 +14,7 @@ df.show(truncate=False)
 +------------------------+
 ```
 
-## 2.  Output: Spark dataframe containing map column
+## 2.  Output: Spark dataframe containing map columns of individual keys
 
 ```python
 df.select(df.data.a.alias("a"), df.data.b.alias("b"), df.data.c.alias("c") ).show()

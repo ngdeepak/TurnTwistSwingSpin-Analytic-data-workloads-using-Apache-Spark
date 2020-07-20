@@ -14,7 +14,7 @@ df.show(truncate=False)
 +----------------------+
 ```
 
-## 2.  Output
+## 2.  Output: Spark data frame consisting of a column of values
 
 ```python
 from pyspark.sql.functions import map_values
