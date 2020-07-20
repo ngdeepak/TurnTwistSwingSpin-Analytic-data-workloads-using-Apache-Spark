@@ -1,5 +1,18 @@
 # JSON
 
+## What is JSON file format?
+
+**JSON** \(JavaScript Object Notation\) is a lightweight data-interchange format. It is easy for humans to read and write. It is easy for machines to parse and generate. JSON is a text format that is completely language independent .
+
+JSON is built on two structures:
+
+* A collection of name/value pairs. In various languages, this is realized as an object, record, struct, dictionary, hash table, keyed list, or associative array.
+* An ordered list of values. In most languages, this is realized as an array, vector, list, or sequence.
+
+## When to use JSON?
+
+JSON should be used only for loading the data from legacy systems. When dealing with HDFS, recommend to use parquet/ORC file format for storing and querying the data for efficiency and performance. 
+
 ## 1. Input: JSON file
 
 ```python
