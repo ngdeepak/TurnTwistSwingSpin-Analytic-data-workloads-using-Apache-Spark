@@ -1,6 +1,8 @@
 # How to sort the column array in ascending order?
 
-## 1.  Input:  Spark data frame consisting of a column having an array
+![](../.gitbook/assets/2020_07_20_kleki-8-.png)
+
+## 1.  Input:  Spark dataframe with a column having an array
 
 ```python
 df = spark.createDataFrame([([2, 1, None, 3, 8, 3, 5],),([1],),([],)], ['data'])
