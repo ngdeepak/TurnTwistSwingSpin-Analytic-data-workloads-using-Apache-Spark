@@ -17,12 +17,12 @@ df.show()
 ## 2.  Output: Spark dataframe containing an array
 
 ```python
-from pyspark.sql.functions import map_entries
-df = df.select(map_entries(df.data).alias("array")).show(truncate=False)
-+----------------------+
-|array                 |
-+----------------------+
-|[[a, 1], [b,], [c, 3]]|
-+----------------------+
+from pyspark.sql.functions import map_from_arrays
+df.select(map_from_arrays(df.k, df.v).alias("map")).show()
++----------------+
+|             map|
++----------------+
+|[2 -> a, 5 -> b]|
++----------------+
 ```
 
