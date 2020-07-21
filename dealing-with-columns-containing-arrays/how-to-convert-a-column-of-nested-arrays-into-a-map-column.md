@@ -1,6 +1,8 @@
 # How to convert a column of nested arrays into a map column?
 
-## 1.  Input:  Spark data frame consisting of a column having a nested  array
+![](../.gitbook/assets/2020_07_21_kleki.png)
+
+## 1.  Input:  Spark dataframe with a column having a nested  array
 
 ```python
 df = spark.sql("SELECT array(struct(1, 'a'), struct(2, 'b')) as data")
