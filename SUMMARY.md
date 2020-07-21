@@ -29,7 +29,7 @@
   * [How to sort an array in a column in ascending or descending order?](dealing-with-columns-containing-arrays/how-to-sort-an-array-in-a-column-in-ascending-or-descending-order.md)
   * [How to slice an array in a column?](dealing-with-columns-containing-arrays/how-to-slice-an-array-in-a-column.md)
   * [How to shuffle a column containing an array?](dealing-with-columns-containing-arrays/how-to-shuffle-a-column-containing-an-array.md)
-  * [How to create a  column containing an array containing elements with sequence\(start,stop,step\)?](dealing-with-columns-containing-arrays/how-to-create-a-column-containing-an-array-containing-elements-with-sequence-start-stop-step.md)
+  * [How to create a  array column  containing elements with sequence\(start,stop,step\)?](dealing-with-columns-containing-arrays/how-to-create-a-column-containing-an-array-containing-elements-with-sequence-start-stop-step.md)
   * [How to reverse the order\(not reverse sort\) of an array in a column ?](dealing-with-columns-containing-arrays/how-to-reverse-order-not-reverse-sort-a-column-of-array.md)
   * [How to combine the array elements from column A and column B, without duplicates?](dealing-with-columns-containing-arrays/how-to-combine-the-array-elements-from-column-a-and-column-b-without-duplicates.md)
   * [How to return an array of the elements in the union of column A and column B, without duplicates?](dealing-with-columns-containing-arrays/untitled-10.md)
