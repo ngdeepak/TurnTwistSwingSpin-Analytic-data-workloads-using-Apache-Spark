@@ -12,6 +12,8 @@ In spark, data operations are mostly carried out directly on a node where data r
 
 ![](../.gitbook/assets/sparktable%20%282%29.png)
 
+![](../.gitbook/assets/2020_07_21_kleki-13-.png)
+
 ## Overview of how data is stored on a spark cluster
 
 ![](../.gitbook/assets/sparkbook-7-.png)
