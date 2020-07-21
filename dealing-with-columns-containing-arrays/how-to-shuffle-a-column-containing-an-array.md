@@ -1,6 +1,8 @@
 # How to shuffle a column containing an array?
 
-## 1.  Input:  Spark data frame consisting of a column having an array
+![](../.gitbook/assets/2020_07_21_kleki-3-.png)
+
+## 1.  Input:  Spark dataframe with a column having an array
 
 ```python
 df = spark.createDataFrame([([1, 2, 3, 8, 4],), ([4, 5, 32, 32, 6],)], ['data'])
