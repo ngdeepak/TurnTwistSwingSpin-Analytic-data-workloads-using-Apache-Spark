@@ -1,6 +1,8 @@
 # How to zip 2 array columns ?
 
-## 1.  Input:  Spark data frame having columns of arrays
+![](../.gitbook/assets/2020_07_21_kleki-7-.png)
+
+## 1.  Input:  Spark dataframe with columns of arrays
 
 ```python
 df = spark.createDataFrame([(([1, 2, 3], [4, 5, 6]))], ['A', 'B'])
@@ -11,10 +13,6 @@ df.show()
 |[1, 2, 3]|[4, 5, 6]|
 +---------+---------+
 ```
-
-{% hint style="info" %}
-to be filled
-{% endhint %}
 
 ## 2. Output
 
