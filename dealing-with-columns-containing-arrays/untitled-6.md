@@ -1,22 +1,19 @@
 # How to concatenate the elements of an array in a column?
 
-## 1.  Input:  Spark data frame consisting of a column having an array
+![](../.gitbook/assets/2020_07_21_kleki-9-.png)
+
+## 1.  Input:  Spark data frame with a column having an array
 
 ```python
-df = spark.createDataFrame([([1, 2, 3],), ([],),([None, None],)], ['data'])
+df = spark.createDataFrame([([1, 2, 3, 4, 5],), ([4, 5, None, 4, 6],)], ['A'])
 df.show()
-+---------+
-|     data|
-+---------+
-|[1, 2, 3]|
-|       []|
-|      [,]|
-+---------+
++---------------+
+|              A|
++---------------+
+|[1, 2, 3, 4, 5]|
+|  [4, 5,, 4, 6]|
++---------------+
 ```
-
-{% hint style="info" %}
-t
-{% endhint %}
 
 ## 2.  Output
 
