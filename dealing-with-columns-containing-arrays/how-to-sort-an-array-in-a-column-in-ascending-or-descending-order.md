@@ -1,6 +1,8 @@
 # How to sort an array in a column in ascending or descending order?
 
-## 1.  Input:  Spark data frame consisting of a column having an array
+![](../.gitbook/assets/2020_07_21_kleki-1-.png)
+
+## 1.  Input:  Spark dataframe with a column having an array
 
 ```python
 df = spark.createDataFrame([([1, 2, 3, 8, 4],), ([4, 5, 32, 32, 6],)], ['data'])
@@ -30,9 +32,9 @@ df.select(sort_array(df.data, asc=True).alias('asc')).show()
 +-----------------+
 
 from pyspark.sql.functions import sort_array
-df.select(sort_array(df.data, asc=False).alias('asc')).show()
+df.select(sort_array(df.data, asc=False).alias('desc')).show()
 +-----------------+
-|              asc|
+|          desc   |
 +-----------------+
 |  [8, 4, 3, 2, 1]|
 |[32, 32, 6, 5, 4]|
