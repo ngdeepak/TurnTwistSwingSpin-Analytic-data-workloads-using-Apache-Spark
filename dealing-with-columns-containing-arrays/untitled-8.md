@@ -1,6 +1,8 @@
 # How to flatten a column containing nested arrays?
 
-## 1.  Input:  Spark data frame having columns of arrays
+![](../.gitbook/assets/2020_07_21_kleki-8-.png)
+
+## 1.  Input:  Spark dataframe with columns of nested arrays
 
 ```python
 df = spark.createDataFrame([([[1, 2, 3, 8, 4],[6,8, 10]],), ([[4, 5, 32, 32, 6]],)], ['data'])
@@ -12,10 +14,6 @@ df.show(truncate=False)
 |[[4, 5, 32, 32, 6]]          |
 +-----------------------------+
 ```
-
-{% hint style="info" %}
-to be filled
-{% endhint %}
 
 ## 2. Output
 
