@@ -1,5 +1,7 @@
 # How to slice an array in a column?
 
+![](../.gitbook/assets/2020_07_21_kleki-2-.png)
+
 ## 1.  Input:  Spark data frame consisting of a column having an array
 
 ```python
