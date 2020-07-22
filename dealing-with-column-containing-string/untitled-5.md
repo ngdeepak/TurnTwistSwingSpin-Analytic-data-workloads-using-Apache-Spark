@@ -1,8 +1,8 @@
 # How to convert to uppercase?
 
+![](../.gitbook/assets/2020_07_22_kleki-1-.png)
 
-
-## 1.  Input:  Spark data frame consisting of a column having a string
+## 1.  Input:  Spark dataframe with a column having a string
 
 ```python
 df = spark.createDataFrame([('abcdefghc',)], ['string',])
@@ -13,10 +13,6 @@ df.show()
 |abcdefghc|
 +---------+
 ```
-
-{% hint style="info" %}
-I
-{% endhint %}
 
 ## 2.  Output
 

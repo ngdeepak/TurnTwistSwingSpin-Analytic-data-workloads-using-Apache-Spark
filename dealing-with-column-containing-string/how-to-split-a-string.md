@@ -2,7 +2,7 @@
 
 ![](../.gitbook/assets/2020_07_22_kleki.png)
 
-## 1.  Input:  Spark data frame consisting of a column having a string
+## 1.  Input:  Spark data frame with a column having a string
 
 ```python
 df = spark.createDataFrame([('abc__def__ghc',)], ['string',])
@@ -13,10 +13,6 @@ df.show()
 |abc__def__ghc|
 +-------------+
 ```
-
-{% hint style="info" %}
-I
-{% endhint %}
 
 ## 2.  Output
 
