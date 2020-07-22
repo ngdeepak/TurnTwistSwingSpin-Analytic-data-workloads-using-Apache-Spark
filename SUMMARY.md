@@ -18,7 +18,7 @@
 * [Dealing with Column containing string](dealing-with-column-containing-string/README.md)
   * [How to split a string?](dealing-with-column-containing-string/how-to-split-a-string.md)
   * [How to convert to uppercase?](dealing-with-column-containing-string/untitled-5.md)
-  * [How to convert to uppercase?](dealing-with-column-containing-string/untitled-4.md)
+  * [How to convert to lowercase?](dealing-with-column-containing-string/untitled-4.md)
   * [How to slice  string?](dealing-with-column-containing-string/untitled-3.md)
   * [How to extract a specific group matched by a Java regex?](dealing-with-column-containing-string/untitled-2.md)
   * [How to replace a specific group matched by a Java regex?](dealing-with-column-containing-string/untitled-1.md)

@@ -1,4 +1,4 @@
-# How to convert to uppercase?
+# How to convert to lowercase?
 
 ## 1.  Input:  Spark data frame consisting of a column having a string
 

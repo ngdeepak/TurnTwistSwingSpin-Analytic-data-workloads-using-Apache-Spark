@@ -1,6 +1,6 @@
 # How to split a string?
 
-
+![](../.gitbook/assets/2020_07_22_kleki.png)
 
 ## 1.  Input:  Spark data frame consisting of a column having a string
 
