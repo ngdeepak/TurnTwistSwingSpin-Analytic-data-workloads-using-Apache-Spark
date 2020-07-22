@@ -1,8 +1,8 @@
 # How to extract a specific group matched by a Java regex?
 
+![](../.gitbook/assets/2020_07_22_kleki-4-.png)
 
-
-## 1.  Input:  Spark data frame consisting of a column having an array
+## 1.  Input:  Spark dataframe with a string column
 
 ```python
 df = spark.createDataFrame([('100-200',)], ['str'])
@@ -13,10 +13,6 @@ df.show()
 |100-200|
 +-------+
 ```
-
-{% hint style="info" %}
-I
-{% endhint %}
 
 ## 2.  Output
 
