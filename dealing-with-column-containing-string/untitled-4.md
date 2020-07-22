@@ -1,6 +1,8 @@
 # How to convert to lowercase?
 
-## 1.  Input:  Spark data frame consisting of a column having a string
+![](../.gitbook/assets/2020_07_22_kleki-2-.png)
+
+## 1.  Input:  Spark dataframe with a column having a string
 
 ```python
 df = spark.createDataFrame([('ABCDEFGHI',)], ['string',])
@@ -11,10 +13,6 @@ df.show()
 |ABCDEFGHI|
 +---------+
 ```
-
-{% hint style="info" %}
-I
-{% endhint %}
 
 ## 2.  Output
 
