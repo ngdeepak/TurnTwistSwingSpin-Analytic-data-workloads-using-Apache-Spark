@@ -1,7 +1,5 @@
 # Preface
 
-
-
 First of all, thank you for taking time to read my book. I hope this book meets your expectations. If not, your feedback is highly appreciated.
 
 I chose to write this book because I believe that learning spark should be made a lot easier through visualization rather than text. Another strong reason was to help the readers to get the most efficient and effective solution very quickly for the problem you are trying to solve.
