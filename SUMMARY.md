@@ -2,6 +2,7 @@
 
 * [Twist, Turn, Spin & Swing Data using Apache Spark](README.md)
 * [Preface](preface.md)
+* [Who this book is for](who-this-book-is-for.md)
 * [Setup & Installation](setup-and-installation.md)
 * [Creating a Data Frame](creating-a-data-frame-1/README.md)
   * [From a list](creating-a-data-frame-1/from-a-list.md)
