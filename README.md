@@ -2,15 +2,15 @@
 description: 3.0.0
 ---
 
-# Twist, Turn, Spin & Swing Analytic data workloads using Apache Spark
+# Twist, Turn, Spin & Swing Data using Apache Spark
 
-## About the Author:
+## Produced by:
 
-[https://www.linkedin.com/in/ndeepak72/](https://www.linkedin.com/in/ndeepak72/)
+![greater than or equal to zero](.gitbook/assets/logo.png)
 
-![](.gitbook/assets/cricket.png)
+## About the Author:  
 
-![](.gitbook/assets/ball.png)
+#### **Deepak Gowda has over 6 years of experience in Apache Spark.**                                                                                                                                                                                                                                                    [www.linkedin.com/in/deepakngowda](www.linkedin.com/in/deepakngowda)
 
 ## 
 
@@ -20,5 +20,5 @@ description: 3.0.0
 
 
 
-
+![](.gitbook/assets/logo%20%281%29.png)
 
