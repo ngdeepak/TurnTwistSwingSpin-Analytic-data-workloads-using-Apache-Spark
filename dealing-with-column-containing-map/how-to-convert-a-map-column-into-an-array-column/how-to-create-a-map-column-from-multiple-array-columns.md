@@ -1,8 +1,8 @@
 # How to create a map column from multiple array columns?
 
-![](../.gitbook/assets/2020_07_20_kleki%20%281%29.png)
+![](../../.gitbook/assets/2020_07_20_kleki%20%281%29.png)
 
-![](../.gitbook/assets/sparkbook-19-.png)
+![](../../.gitbook/assets/sparkbook-19-.png)
 
 ## 1.  `Input:  Spark dataframe containing map column`
 

@@ -1,6 +1,6 @@
 # How to read individual elements ?
 
-![](../.gitbook/assets/sparkbook-12-.png)
+![](../.gitbook/assets/2020_07_27_kleki-21-.png)
 
 ## 1.  Input:  Spark dataframe containing map column
 
