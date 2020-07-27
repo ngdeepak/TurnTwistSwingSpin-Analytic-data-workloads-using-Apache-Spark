@@ -1,5 +1,7 @@
 # CSV
 
+![](../.gitbook/assets/2020_07_27_kleki-7-.png)
+
 ## 1 . Input
 
 | Name | Age |

@@ -9,6 +9,35 @@ JSON is built on two structures:
 * A collection of name/value pairs. In various languages, this is realized as an object, record, struct, dictionary, hash table, keyed list, or associative array.
 * An ordered list of values. In most languages, this is realized as an array, vector, list, or sequence.
 
+JSON example:
+
+```javascript
+{
+  "firstName": "John",
+  "lastName": "Smith",
+  "isAlive": true,
+  "age": 27,
+  "address": {
+    "streetAddress": "21 2nd Street",
+    "city": "New York",
+    "state": "NY",
+    "postalCode": "10021-3100"
+  },
+  "phoneNumbers": [
+    {
+      "type": "home",
+      "number": "212 555-1234"
+    },
+    {
+      "type": "office",
+      "number": "646 555-4567"
+    }
+  ],
+  "children": [],
+  "spouse": null
+}
+```
+
 ## When to use JSON?
 
 JSON should be used only for loading the data from legacy systems. When dealing with HDFS, recommend to use parquet/ORC file format for storing and querying the data for efficiency and performance. 
@@ -35,7 +64,7 @@ df = spark.read.json("/home/deepak/Documents/jupyter/data/sample.json")
 df.show()
 ```
 
-## 3. Output Spar data frame
+## 3. Output Spark data frame
 
 ```python
 +---+----+
