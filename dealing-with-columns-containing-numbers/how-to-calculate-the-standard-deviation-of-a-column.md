@@ -20,7 +20,7 @@ df.show()
 
 ```python
 from pyspark.sql.functions import stddev
-df.select(stddev(df.data).alias('mean')).first()[0]
+df.select(stddev(df.data)).first()[0]
 1.0
 ```
 

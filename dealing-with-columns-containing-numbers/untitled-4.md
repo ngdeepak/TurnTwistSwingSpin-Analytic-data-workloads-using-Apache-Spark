@@ -1,10 +1,14 @@
-# Untitled
+# How to calculate the sum of a column?
+
+![](../.gitbook/assets/2020_07_27_kleki-11-.png)
 
 
 
-## 1.  Input:  Spark data frame with a column having numbers
+## Example 1. 
 
 ```python
+#INPUT
+
 df = spark.createDataFrame([(1,),(2,),(3,)],['data'])
 df.show()
 +----+
@@ -14,61 +18,45 @@ df.show()
 |   2|
 |   3|
 +----+
-```
 
-## 2.  Output
-
-```python
-from pyspark.sql.functions import mean
-df.select(mean(df.data).alias('mean')).first()[0]
-2.0
+# OUTPUT
+from pyspark.sql.functions import sum
+df.select(sum(df.data)).first()[0]
+6
 ```
 
 {% hint style="info" %}
-**Syntax:**   `mean`\(_col_\)
+**Syntax:   sum\(**_col_\)
 
-returns the average of the values in a group.      
+returns the sum of the values in a group.     
 {% endhint %}
 
-## 1.  Input:  Spark data frame with a column having a string
+## Example 2.
 
 ```python
-df = spark.createDataFrame([('abc__def__ghc',)], ['string',])
+#INPUT
+df = spark.createDataFrame([(1,),(2,),(3,),(2,)],['data'])
 df.show()
-+-------------+
-|       string|
-+-------------+
-|abc__def__ghc|
-+-------------+
-```
++----+
+|data|
++----+
+|   1|
+|   2|
+|   3|
+|   2|
++----+
 
-## 2.  Output
-
-```python
-from pyspark.sql.functions import split
-df.select(split(df.string,'__').alias('split_string')).show()
-+---------------+
-|   split_string|
-+---------------+
-|[abc, def, ghc]|
-+---------------+
+# OUTPUT
+from pyspark.sql.functions import sumDistinct
+df.select(sumDistinct(df.data)).first()[0]
+6
 ```
 
 {% hint style="info" %}
-**Syntax:**   `split`\(_str_, _pattern_, _limit=-1_\)                                                                                                                 
+**Syntax:**  sumDistinct_col_\)
 
-* **str** – a string expression to split
-* **pattern** – a string representing a regular expression. The regex string should be a Java regular expression.
-* **limit** –
-
-  an integer which controls the number of times pattern is applied.
-
-  * `limit > 0`: The resulting array’s length will not be more than limit, and the
-
-    resulting array’s last entry will contain all input beyond the last matched pattern.
-
-  * `limit <= 0`: pattern will be applied as many times as possible, and the resulting
-
-    array can be of any size.            
+returns the sum of the distinct values in a group.      
 {% endhint %}
+
+## 
 

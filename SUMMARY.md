@@ -17,7 +17,7 @@
 * [Dealing with columns containing numbers](dealing-with-columns-containing-numbers/README.md)
   * [How to calculate the mean of a column?](dealing-with-columns-containing-numbers/how-to-calculate-the-mean-of-a-column.md)
   * [How to calculate the standard deviation of a column?](dealing-with-columns-containing-numbers/how-to-calculate-the-standard-deviation-of-a-column.md)
-  * [Untitled](dealing-with-columns-containing-numbers/untitled-4.md)
+  * [How to calculate the sum of a column?](dealing-with-columns-containing-numbers/untitled-4.md)
   * [Untitled](dealing-with-columns-containing-numbers/untitled-3.md)
   * [Untitled](dealing-with-columns-containing-numbers/untitled-2.md)
   * [Untitled](dealing-with-columns-containing-numbers/untitled-1.md)
