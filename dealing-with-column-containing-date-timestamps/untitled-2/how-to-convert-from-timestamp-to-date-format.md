@@ -1,4 +1,4 @@
-# How to convert from timestamp to date format?
+# How to convert timestamp string to date format?
 
 ## 1.  Input:  Spark data frame consisting of a timestamp column 
 
@@ -10,6 +10,9 @@ df.show()
 +-------------------+
 |2020-07-15 16:52:44|
 +-------------------+
+
+df.dtypes
+[('timestamp', 'string')]
 ```
 
 ## 2.  Output Spark data frame consisting of a datetime column 
@@ -19,9 +22,15 @@ from pyspark.sql.functions import to_date
 df.select(to_date(df.timestamp).alias('datetime')).collect()
 [Row(date=datetime.date(2020, 7, 15))]
 
+df.dtypes
+[('timestamp', 'date')]
+
 from pyspark.sql.functions import to_date
 df.select(to_date(df.timestamp, 'yyyy-MM-dd HH:mm:ss').alias('date')).collect()
 [Row(date=datetime.date(2020, 7, 15))]
+
+df.dtypes
+[('timestamp', 'date')]
 ```
 
 {% hint style="info" %}
