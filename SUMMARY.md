@@ -21,7 +21,6 @@
   * [How to round values in a column?](dealing-with-columns-containing-numbers/untitled-3.md)
   * [How to calculate the minimum value in a column?](dealing-with-columns-containing-numbers/untitled-2.md)
   * [How to calculate the maximum value in a column?](dealing-with-columns-containing-numbers/untitled-1.md)
-  * [Untitled](dealing-with-columns-containing-numbers/untitled.md)
 * [Dealing with Column containing string](dealing-with-column-containing-string/README.md)
   * [How to split a string?](dealing-with-column-containing-string/how-to-split-a-string.md)
   * [How to convert to uppercase?](dealing-with-column-containing-string/untitled-5.md)
