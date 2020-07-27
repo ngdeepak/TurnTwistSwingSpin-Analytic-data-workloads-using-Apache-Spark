@@ -1,8 +1,8 @@
 # From RDD\(Resilient Distributed Dataset \)
 
-## Goal:
+## 
 
-![](../.gitbook/assets/sparkbook-6-.png)
+![](../.gitbook/assets/2020_07_27_kleki-6-.png)
 
 ## Creating a  RDD
 

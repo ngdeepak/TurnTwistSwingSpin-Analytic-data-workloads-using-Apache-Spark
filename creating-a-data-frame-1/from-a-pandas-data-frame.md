@@ -1,8 +1,8 @@
 # From a Pandas data frame
 
-## Goal:
+## 
 
-![](../.gitbook/assets/sparkbook-5-.png)
+![](../.gitbook/assets/2020_07_27_kleki-5-.png)
 
 ## 1. Creating  a Pandas data frame
 
