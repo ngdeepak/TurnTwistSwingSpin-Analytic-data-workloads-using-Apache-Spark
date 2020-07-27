@@ -12,10 +12,6 @@ df.show()
 +----------+
 ```
 
-{% hint style="info" %}
-Given a timestamp like '2017-07-14 02:40:00.0', interprets it as a time in the given\(local\) time zone
-{% endhint %}
-
 ## 2.  Output Spark data frame consisting of a timestamp column 
 
 ```python

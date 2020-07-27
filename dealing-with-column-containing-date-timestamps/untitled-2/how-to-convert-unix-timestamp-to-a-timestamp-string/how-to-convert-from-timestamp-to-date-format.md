@@ -12,10 +12,6 @@ df.show()
 +-------------------+
 ```
 
-{% hint style="info" %}
-G
-{% endhint %}
-
 ## 2.  Output Spark data frame consisting of a datetime column 
 
 ```python

@@ -1,5 +1,7 @@
 # How to extract year, month, date, hour, minute, second, day, weekday, week/quarter of year?
 
+![](../.gitbook/assets/2020_07_27_kleki-27-.png)
+
 
 
 ## 1.  Input:  Spark data frame consisting of a date/timestamp column 

@@ -12,10 +12,6 @@ df.show()
 +----------+
 ```
 
-{% hint style="info" %}
-I
-{% endhint %}
-
 ## 2.  Output
 
 ```python
