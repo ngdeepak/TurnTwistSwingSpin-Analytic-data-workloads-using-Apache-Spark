@@ -1,6 +1,6 @@
 # How to calculate the minimum value in a column?
 
-
+![](../.gitbook/assets/2020_07_27_kleki-13-.png)
 
 ## 1.  Input:  Spark data frame with a column having numbers
 

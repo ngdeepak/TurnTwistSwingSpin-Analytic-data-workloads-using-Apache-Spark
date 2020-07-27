@@ -1,6 +1,6 @@
 # How to calculate the maximum value in a column?
 
-
+![](../.gitbook/assets/2020_07_27_kleki-14-.png)
 
 ## 
 
