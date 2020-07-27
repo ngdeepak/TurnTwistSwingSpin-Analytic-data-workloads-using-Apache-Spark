@@ -1,8 +1,6 @@
 # How to combine two array columns into a map column?
 
-map\_from\_array
-
-
+![](../.gitbook/assets/2020_07_27_kleki-18-.png)
 
 
 
