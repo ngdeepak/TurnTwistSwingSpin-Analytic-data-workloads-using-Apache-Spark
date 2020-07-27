@@ -1,4 +1,4 @@
-# Untitled
+# How to calculate the minimum value in a column?
 
 
 
