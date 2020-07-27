@@ -14,10 +14,6 @@ df.show()
 +------+------+
 ```
 
-{% hint style="info" %}
-to be filled
-{% endhint %}
-
 ## 2. Output
 
 ```python
