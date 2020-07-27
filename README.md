@@ -10,7 +10,7 @@ description: 3.0.0
 
 ## About the Author:  
 
-Deepak Gowda has more than 15 years of experience information technology,  more than 7 years of experience in data science . He first started using spark in 2014 when he was working at Intel and acquired Databricks Spark Developer Certification in 2015. He has used spark extensively since then. He currently works as Principal Data Scientist. .                                                                                                                                                                                 More details about Deepak at **** [www.linkedin.com/in/deepakngowda](www.linkedin.com/in/deepakngowda)   
+Deepak Gowda has more than 15 years of experience in information technology &  more than 7 years of experience in data science . He first started using spark in 2014 when he was working at Intel and later acquired Databricks Spark Developer Certification in 2015. He has been using spark extensively since then. He currently works as a Principal Data Scientist at Dell.                                                                                                                                                                                  More details about Deepak at **** [www.linkedin.com/in/deepakngowda](www.linkedin.com/in/deepakngowda)   
 
 #### Spark credentials obtained from databricks in 2015 is as below. 
 
