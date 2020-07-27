@@ -1,5 +1,7 @@
 # JSON
 
+![](../.gitbook/assets/2020_07_27_kleki-8-.png)
+
 ## What is JSON file format?
 
 **JSON** \(JavaScript Object Notation\) is a lightweight data-interchange format. It is easy for humans to read and write. It is easy for machines to parse and generate. JSON is a text format that is completely language independent .
