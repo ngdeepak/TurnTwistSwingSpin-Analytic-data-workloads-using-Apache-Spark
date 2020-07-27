@@ -1,5 +1,7 @@
 # How to return an array of the elements in the union of column A and column B, without duplicates?
 
+![](../.gitbook/assets/2020_07_27_kleki-19-.png)
+
 ## 1.  Input:  Spark data frame having columns of arrays
 
 ```python
