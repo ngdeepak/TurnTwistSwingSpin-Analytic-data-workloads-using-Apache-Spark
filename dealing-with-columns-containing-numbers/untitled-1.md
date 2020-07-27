@@ -2,45 +2,33 @@
 
 
 
-## 1.  Input:  Spark data frame with a column having a string
+## 
+
+## 1.  Input:  Spark data frame with a column having numbers
 
 ```python
-df = spark.createDataFrame([('abc__def__ghc',)], ['string',])
+df = spark.createDataFrame([(1,),(2,),(3,)],['data'])
 df.show()
-+-------------+
-|       string|
-+-------------+
-|abc__def__ghc|
-+-------------+
++----+
+|data|
++----+
+|   1|
+|   2|
+|   3|
++----+
 ```
 
 ## 2.  Output
 
 ```python
-from pyspark.sql.functions import split
-df.select(split(df.string,'__').alias('split_string')).show()
-+---------------+
-|   split_string|
-+---------------+
-|[abc, def, ghc]|
-+---------------+
+from pyspark.sql.functions import max
+df.select(max(df.data)).first()[0]
+1.0
 ```
 
 {% hint style="info" %}
-**Syntax:**   `split`\(_str_, _pattern_, _limit=-1_\)                                                                                                                 
+**Syntax:**   `max`\(_col_\)
 
-* **str** – a string expression to split
-* **pattern** – a string representing a regular expression. The regex string should be a Java regular expression.
-* **limit** –
-
-  an integer which controls the number of times pattern is applied.
-
-  * `limit > 0`: The resulting array’s length will not be more than limit, and the
-
-    resulting array’s last entry will contain all input beyond the last matched pattern.
-
-  * `limit <= 0`: pattern will be applied as many times as possible, and the resulting
-
-    array can be of any size.            
+returns the maximum of the values in a group.      
 {% endhint %}
 
