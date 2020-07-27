@@ -1,6 +1,6 @@
 # How to convert a map column into an array column?
 
-![](../../.gitbook/assets/2020_07_27_kleki-24-.png)
+![](../.gitbook/assets/2020_07_27_kleki-24-.png)
 
 
 
