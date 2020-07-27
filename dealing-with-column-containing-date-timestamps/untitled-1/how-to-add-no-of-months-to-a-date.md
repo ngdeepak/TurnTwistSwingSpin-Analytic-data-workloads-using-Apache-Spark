@@ -28,3 +28,5 @@ df.select(add_months(df.date, 1).alias('next_month')).show()
 Syntax:  `add_months`\(_start_, _months_\)                                                                                                                             Returns the date that is months months after start.
 {% endhint %}
 
+
+

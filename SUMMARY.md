@@ -85,7 +85,6 @@
   * [Comparing Columns](column-transformation/comparing-columns.md)
   * [Column aggregates](column-transformation/column-aggregates.md)
   * [Dealing with column containing JSON](column-transformation/dealing-with-column-containing-json.md)
-  * [Dealing with Column containing date/timestamps](column-transformation/dealing-with-column-containing-date-timestamps.md)
   * [Co-variance between 2 columns](column-transformation/co-variance-between-2-columns.md)
   * [Correlation between 2 columns](column-transformation/correlation-between-2-columns.md)
   * [Changing the column name](column-transformation/changing-the-column-name.md)
