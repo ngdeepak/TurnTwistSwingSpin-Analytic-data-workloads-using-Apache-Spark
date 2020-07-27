@@ -1,5 +1,7 @@
 # How to replace a specific group matched by a Java regex?
 
+![](../.gitbook/assets/2020_07_27_kleki-16-.png)
+
 ## 1.  Input:  Spark data frame consisting of a column having a string
 
 ```python
@@ -11,10 +13,6 @@ df.show()
 |100-200|
 +-------+
 ```
-
-{% hint style="info" %}
-I
-{% endhint %}
 
 ## 2.  Output
 

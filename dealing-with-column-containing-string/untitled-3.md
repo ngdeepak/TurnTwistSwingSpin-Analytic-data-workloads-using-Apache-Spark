@@ -1,6 +1,6 @@
 # How to slice  string?
 
-![](../.gitbook/assets/2020_07_22_kleki-3-.png)
+![](../.gitbook/assets/2020_07_27_kleki-15-.png)
 
 ## 1.  Input:  Spark dataframe with a column having a string
 
