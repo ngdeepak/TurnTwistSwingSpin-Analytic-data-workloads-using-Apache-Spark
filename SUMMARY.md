@@ -31,7 +31,7 @@
 * [Dealing with column containing arrays](dealing-with-columns-containing-arrays/README.md)
   * [How to create a column containing array?](dealing-with-columns-containing-arrays/how-to-create-a-new-array-column.md)
   * [How to convert a column of nested arrays into a map column?](dealing-with-columns-containing-arrays/how-to-convert-a-column-of-nested-arrays-into-a-map-column.md)
-  * [How to convert array columns into a map column?](dealing-with-columns-containing-arrays/how-to-convert-array-columns-into-a-map-column.md)
+  * [How to combine two array columns into a map column?](dealing-with-columns-containing-arrays/how-to-convert-array-columns-into-a-map-column.md)
   * [How to sort an array in a column in ascending or descending order?](dealing-with-columns-containing-arrays/how-to-sort-an-array-in-a-column-in-ascending-or-descending-order.md)
   * [How to slice an array in a column?](dealing-with-columns-containing-arrays/how-to-slice-an-array-in-a-column.md)
   * [How to shuffle a column containing an array?](dealing-with-columns-containing-arrays/how-to-shuffle-a-column-containing-an-array.md)

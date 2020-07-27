@@ -1,4 +1,4 @@
-# How to convert array columns into a map column?
+# How to combine two array columns into a map column?
 
 map\_from\_array
 

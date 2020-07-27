@@ -1,6 +1,6 @@
 # How to reverse the order\(not reverse sort\) of an array in a column ?
 
-![](../.gitbook/assets/2020_07_21_kleki-5-.png)
+![](../.gitbook/assets/2020_07_27_kleki-17-.png)
 
 ## 1.  Input:  Spark dataframe with a column having an array
 
