@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Twist, Turn, Spin & Swing Data using Apache Spark](README.md)
+* [Twist, Turn &  Spin Data using Apache Spark](README.md)
 * [Preface](preface.md)
 * [Who this book is for](who-this-book-is-for.md)
 * [Setup & Installation](setup-and-installation.md)

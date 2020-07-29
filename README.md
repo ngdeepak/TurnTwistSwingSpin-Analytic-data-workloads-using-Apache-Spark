@@ -2,7 +2,7 @@
 description: 3.0.0
 ---
 
-# Twist, Turn, Spin & Swing Data using Apache Spark
+# Twist, Turn &  Spin Data using Apache Spark
 
 ## Produced & Owned by:
 
