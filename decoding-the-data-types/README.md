@@ -2,7 +2,7 @@
 description: Understand the various Data Types and its use cases
 ---
 
-# Decoding the Data Types
+# Decoding the Spark Data Types
 
 ## Array Type
 
