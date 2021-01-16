@@ -23,7 +23,7 @@ Option\#1:
 df.schema
 ```
 
-{% page-ref page="./" %}
+{% embed url="https://hub.gke2.mybinder.org/user/ngdeepak-sparkbook-j1irc647/notebooks/sparkbook-2.ipynb" %}
 
 
 
