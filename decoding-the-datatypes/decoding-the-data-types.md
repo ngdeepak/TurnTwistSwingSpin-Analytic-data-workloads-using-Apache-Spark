@@ -2,7 +2,7 @@
 description: Understand the various Data Types and its use cases
 ---
 
-# 123Decoding the Data Types
+# Decoding the Data Types
 
 ## Array Type
 
